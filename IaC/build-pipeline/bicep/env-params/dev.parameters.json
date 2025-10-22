@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "azureWebAppServiceName": {
+      "value": "fennecapp-dev-web"
+    },
+    "webApiBaseUrl": {
+      "value": "https://fennecapp-dev-api.azurewebsites.net"
+    },
+    "nodeEnv": {
+      "value": "development"
+    },
+    "webBaseUrl": {
+      "value": "https://fennecapp-dev-web.azurewebsites.net"
+    },
+    "firebaseApiKey": {
+      "value": "AIzaSyAgosROjgBdWIo83VSxwzMVBB5vySBfEUo"
+    },
+    "firebaseAuthDomain": {
+      "value": "fennecai.firebaseapp.com"
+    },
+    "firebaseDatabaseUrl": {
+      "value": "https://fennecai-default-rtdb.firebaseio.com"
+    },
+    "firebaseProjectId": {
+      "value": "fennecai"
+    },
+    "firebaseStorageBucket": {
+      "value": "fennecai.appspot.com"
+    },
+    "firebaseMessageSenderId": {
+      "value": "126575465024"
+    },
+    "firebaseAppId": {
+      "value": "1:126575465024:web:b52ee540dea2278867c5a5"
+    },
+    "firebaseMeasurementId": {
+      "value": "G-KE03RSRHPE"
+    },
+    "googleMapApiKey": {
+      "value": "AIzaSyA58-KmHHT6uxuFgTgrAzMXKnyJt4fXgoA"
+    }
+  }
+}

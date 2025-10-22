@@ -1,0 +1,43 @@
+export const data = [
+  {
+    id: crypto.randomUUID(),
+    time: "08:00PM - 09:00PM",
+    sales: "$1,250.00",
+    percentageCheck: "15%",
+    salesPercentage: "12%",
+    avgCheck: "$62.50",
+    guest: "50",
+    avgGuestPercentage: "12.2%",
+  },
+  {
+    id: crypto.randomUUID(),
+    time: "08:00PM - 09:00PM",
+    sales: "$1,250.00",
+    percentageCheck: "15%",
+    salesPercentage: "12%",
+    avgCheck: "$62.50",
+    guest: "50",
+    avgGuestPercentage: "12.2%",
+  },
+  {
+    id: crypto.randomUUID(),
+    time: "08:00PM - 09:00PM",
+    sales: "$1,250.00",
+    percentageCheck: "15%",
+    salesPercentage: "12%",
+    avgCheck: "$62.50",
+    guest: "50",
+    avgGuestPercentage: "12.2%",
+  },
+  {
+    id: crypto.randomUUID(),
+    time: "TOTAL",
+    sales: "$10,000.00",
+    percentageCheck: "100%",
+    salesPercentage: "100%",
+    avgCheck: "$70.00",
+    guest: "410",
+    avgGuestPercentage: "100%",
+  },
+];
+export type TDataProps = (typeof data)[0];

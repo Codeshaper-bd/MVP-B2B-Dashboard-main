@@ -1,0 +1,43 @@
+export const data = [
+  {
+    id: crypto.randomUUID(),
+    type: null,
+    discount: "-",
+    actual: "-",
+    reason: "-",
+    authBy: "-",
+    checkNo: "-",
+    date: "-",
+  },
+  {
+    id: crypto.randomUUID(),
+    type: null,
+    discount: "-",
+    actual: "-",
+    reason: "-",
+    authBy: "-",
+    checkNo: "-",
+    date: "-",
+  },
+  {
+    id: crypto.randomUUID(),
+    type: null,
+    discount: "-",
+    actual: "-",
+    reason: "-",
+    authBy: "-",
+    checkNo: "-",
+    date: "-",
+  },
+  {
+    id: crypto.randomUUID(),
+    type: null,
+    discount: "-",
+    actual: "-",
+    reason: "-",
+    authBy: "-",
+    checkNo: "-",
+    date: "-",
+  },
+];
+export type TDataProps = (typeof data)[0];

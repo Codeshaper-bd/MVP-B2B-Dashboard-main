@@ -1,0 +1,59 @@
+{
+  "cSpell.words": [
+    "apexcharts",
+    "autoplay",
+    "bannar",
+    "Barback",
+    "Bartendar",
+    "Bottlegirl",
+    "Cashout",
+    "cmdk",
+    "COADMIN",
+    "Coatcheck",
+    "Comulative",
+    "dashcode",
+    "embla",
+    "ENTIRED",
+    "fancyapps",
+    "fancybox",
+    "fennecappcommonstorage",
+    "frameset",
+    "Guestlist",
+    "Guestlists",
+    "Hoverable",
+    "hugeicons",
+    "iconify",
+    "lcbo",
+    "officedocument",
+    "openxmlformats",
+    "persistor",
+    "sonner",
+    "sparkline",
+    "spreadsheetml",
+    "vaul",
+    "Viphost",
+    "Weblink",
+    "xaxis",
+    "yaxis"
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.organizeImports": "never",
+    "source.sortMembers": "never",
+    "source.sortImports": "never",
+    "source.removeUnusedImports": "never"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "css.validate": false,
+  "tailwindCSS.emmetCompletions": true,
+  "[bicep]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-bicep"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

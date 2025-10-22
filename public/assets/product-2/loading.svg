@@ -1,0 +1,16 @@
+<svg width="49" height="48" viewBox="0 0 49 48" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <mask id="mask0_8206_8441" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-4" y="-4" width="57" height="56">
+        <rect x="-3.66602" y="-4" width="56" height="56" rx="28" fill="url(#paint0_angular_8206_8441)"/>
+    </mask>
+    <g mask="url(#mask0_8206_8441)">
+        <path d="M45.334 24C45.334 26.7578 44.7908 29.4885 43.7355 32.0364C42.6801 34.5842 41.1333 36.8992 39.1832 38.8492C37.2332 40.7993 34.9182 42.3461 32.3703 43.4015C29.8225 44.4568 27.0917 45 24.334 45C21.5762 45 18.8455 44.4568 16.2976 43.4015C13.7498 42.3461 11.4348 40.7993 9.48474 38.8492C7.53471 36.8992 5.98786 34.5842 4.93251 32.0363C3.87716 29.4885 3.33398 26.7578 3.33398 24C3.33399 21.2422 3.87717 18.5115 4.93252 15.9636C5.98787 13.4158 7.53472 11.1008 9.48475 9.15075C11.4348 7.20072 13.7498 5.65387 16.2976 4.59853C18.8455 3.54318 21.5762 3 24.334 3C27.0918 3 29.8225 3.54318 32.3703 4.59853C34.9182 5.65388 37.2332 7.20073 39.1832 9.15077C41.1333 11.1008 42.6801 13.4158 43.7355 15.9637C44.7908 18.5115 45.334 21.2423 45.334 24L45.334 24Z" stroke="#F79009" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.1 8"/>
+    </g>
+    <defs>
+        <radialGradient id="paint0_angular_8206_8441" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24.334 24) rotate(169.077) scale(28.025)">
+            <stop/>
+            <stop offset="0.921875" stop-opacity="0"/>
+            <stop offset="1" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+</svg>

@@ -1,0 +1,104 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:prettier/recommended",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "eslint-plugin-react-compiler",
+    "react",
+    "import",
+    "unused-imports",
+    "eslint-plugin-import",
+    "eslint-plugin-unused-imports",
+    "@typescript-eslint",
+    "@typescript-eslint/eslint-plugin"
+  ],
+  "rules": {
+    "react-compiler/react-compiler": "warn",
+    "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "function-declaration",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+
+    "unused-imports/no-unused-imports": "warn",
+    "unused-imports/no-unused-vars": [
+      "off",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+
+    "import/order": [
+      "warn",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          ["parent", "sibling", "index"]
+        ],
+        "pathGroups": [
+          {
+            "pattern": "@/components/**",
+            "group": "internal",
+            "position": "after"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["builtin"],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "warnOnUnassignedImports": true, // optional: warns for imports like just 'react'
+        "distinctGroup": false // 👈 This prevents ESLint from splitting a group due to blank lines
+      }
+    ],
+    "@typescript-eslint/consistent-type-imports": [
+      "warn",
+      {
+        "prefer": "type-imports", // Ensure type imports are used consistently
+        "disallowTypeAnnotations": false // Allow type annotations on imports if needed
+      }
+    ],
+    "no-duplicate-imports": "error",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "import/named": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-empty-object-type": "off",
+    "@typescript-eslint/no-empty-object-types": "off",
+    "@typescript-eslint/no-unsafe-function-type": "off",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    // "@typescript-eslint/explicit-function-return-type": "warn",
+    // "@typescript-eslint/no-explicit-any": "warn",
+    // "@typescript-eslint/prefer-optional-chain": "warn",
+    // "@typescript-eslint/no-non-null-assertion": "warn",
+
+    "eqeqeq": ["error", "always"],
+    "curly": ["error", "all"],
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-template": "warn",
+    "arrow-body-style": ["warn", "as-needed"],
+    "prefer-arrow-callback": "warn",
+    // "consistent-return": "warn",
+    "object-shorthand": ["warn", "always"],
+    "spaced-comment": ["warn", "always", { "markers": ["/"] }],
+    "no-useless-return": "warn",
+    "no-alert": "warn"
+  },
+  "ignorePatterns": ["node_modules/*", ".next/*", "out/*", "dist/*"]
+}

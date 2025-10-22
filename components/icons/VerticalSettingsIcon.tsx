@@ -1,0 +1,18 @@
+import React from "react";
+
+function VerticalSettingsIcon({ ...props }: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 6 26"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <circle cx="3" cy="3" r="3" fill="currentColor" />
+      <circle cx="3" cy="13" r="3" fill="currentColor" />
+      <circle cx="3" cy="23" r="3" fill="currentColor" />
+    </svg>
+  );
+}
+
+export default VerticalSettingsIcon;

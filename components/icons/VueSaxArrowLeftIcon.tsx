@@ -1,0 +1,23 @@
+import React from "react";
+
+function VueSaxArrowLeftIcon({ ...props }: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15.0498 19.92L8.5298 13.4C7.7598 12.63 7.7598 11.37 8.5298 10.6L15.0498 4.08"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+}
+
+export default VueSaxArrowLeftIcon;

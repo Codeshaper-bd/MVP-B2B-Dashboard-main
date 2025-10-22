@@ -1,0 +1,73 @@
+trigger:
+  branches:
+    include:
+      - dev
+      - main
+      - staging
+
+pr:
+  branches:
+    include:
+      - dev
+      - main
+      - staging
+
+# Define the pool at the top level
+pool:
+  vmImage: "ubuntu-latest"
+
+stages:
+  - stage: Build
+    displayName: "Build Application"
+    jobs:
+      - job: "BuildAndPublish"
+        displayName: "Build and Publish Job"
+        steps:
+          - template: templates/web-build.yml
+            parameters:
+              BICEP_FILE_LOCATION: "IaC/build-pipeline/bicep"
+              ARTIFACT_NAME: "drop"
+
+  # Stage for Fennec WEB DEV deployment Setup
+  - stage: "Deploy_DEV"
+    displayName: "Deploy to Development Environment"
+    dependsOn: Build
+    condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'dev'))
+    jobs:
+      - deployment: "DeployDev"
+        displayName: "Deploy to Development"
+        environment: dev
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - template: templates/deploy-to-azure.yml
+                  parameters:
+                    bicepFileLocation: "IaC/build-pipeline/bicep"
+                    paramFile: "dev.parameters.json"
+                    resourceGroupName: "fennecapp-dev-rc"
+                    apiAppServiceName: "fennecapp-dev-web"
+                    ARTIFACT_NAME: "drop"
+                    ENVIRONMENT: "dev"
+
+  # Stage for Fennec APP PROD deployment Setup
+  - stage: "Deploy_PROD"
+    displayName: "Deploy to Production Environment"
+    dependsOn: Build
+    condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'main'))
+    jobs:
+      - deployment: "DeployProd"
+        displayName: "Deploy to Production"
+        environment: prod
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - template: templates/deploy-to-azure.yml
+                  parameters:
+                    bicepFileLocation: "IaC/build-pipeline/bicep"
+                    paramFile: "prod.parameters.json"
+                    resourceGroupName: "fennecapp-prod-rc"
+                    apiAppServiceName: "fennecapp-prod-web"
+                    ARTIFACT_NAME: "drop"
+                    ENVIRONMENT: "prod"

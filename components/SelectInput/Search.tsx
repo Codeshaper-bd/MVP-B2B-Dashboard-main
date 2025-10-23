@@ -3,7 +3,7 @@ import { memo, useEffect, useMemo, useRef } from "react";
 
 import { useBooleanContext } from "@/contexts/BooleanContext";
 import { cn } from "@/lib/utils";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 
 import type { IOption } from "./DropDown/Option";

@@ -4,7 +4,7 @@ import type { Transform } from "@dnd-kit/utilities";
 import React, { useEffect, useState } from "react";
 
 import { cn } from "@/lib/utils";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import DeviceIcon from "@/components/icons/DeviceIcon";
 import PingIcon from "@/components/icons/ping-icon";
 import StatusAlert from "@/components/StatusAlert";

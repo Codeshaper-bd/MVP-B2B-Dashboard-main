@@ -9,8 +9,8 @@ import {
   convertUTCToLocalDate,
 } from "@/lib/date-time/utc-date";
 import { cn } from "@/lib/utils";
-import CalendarIcon from "@/components/icons/CalendarIcon";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import RefreshIcon from "@/components/icons/RefreshIcon";
 import RenderData from "@/components/render-data";
 import { Button } from "@/components/ui/button";

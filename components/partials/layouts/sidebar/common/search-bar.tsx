@@ -4,7 +4,7 @@ import { memo } from "react";
 
 import { useConfig } from "@/hooks/use-config";
 import { useMenuHoverConfig } from "@/hooks/use-menu-hover";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 
 import CollapsedSearchBar from "./collapsed-search-bar";

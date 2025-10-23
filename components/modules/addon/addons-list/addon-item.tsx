@@ -2,7 +2,7 @@ import { useCallback, useMemo } from "react";
 
 import { getAvatarFallbackName } from "@/lib/user/get-avatar-fallback-name";
 import type { TAddOn } from "@/store/api/add-ons/add-ons.types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import SquarePenIcon from "@/components/icons/SquarePenIcon";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";

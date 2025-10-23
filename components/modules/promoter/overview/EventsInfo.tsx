@@ -12,7 +12,7 @@ import type { TEvent } from "@/store/api/events/events.types";
 import { useGetPromotersTrackingLinkQuery } from "@/store/api/promoters/promoters-api";
 import type { TPromotersTrackingLinkData } from "@/store/api/promoters/promoters.types";
 import { CopyInput } from "@/components/copy-input";
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import LinkIcon from "@/components/icons/LinkIcon";
 import UserIcon from "@/components/icons/UserIcon";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";

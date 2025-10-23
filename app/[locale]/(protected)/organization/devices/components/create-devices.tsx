@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 import CreateDevice from "./create-device";

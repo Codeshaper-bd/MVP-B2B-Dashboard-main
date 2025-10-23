@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import useObjectURL from "@/hooks/useObjectURL";
 import type { TSingleFile } from "@/components/form/upload-single-file";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 
 export interface IPreviewProps {
   file: TSingleFile | null | undefined;

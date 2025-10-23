@@ -9,7 +9,7 @@ import { getStatusColors } from "@/lib/get-status-colors";
 import { calculateSerialNumber } from "@/lib/pagination/calculate-serial-number";
 import { cn } from "@/lib/utils";
 import type { TPastEventTransaction } from "@/store/api/past-event/past-event.types";
-import EmailIcon from "@/components/icons/EmailIcon";
+import { MailIcon as EmailIcon } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 
 export type TGetColumns = (props: {

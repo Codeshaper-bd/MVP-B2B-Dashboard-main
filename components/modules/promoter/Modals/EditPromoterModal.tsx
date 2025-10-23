@@ -4,7 +4,7 @@ import type { Dispatch, SetStateAction } from "react";
 
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 
 import EditPromoterForm from "../forms/EditPromoterForm";
 

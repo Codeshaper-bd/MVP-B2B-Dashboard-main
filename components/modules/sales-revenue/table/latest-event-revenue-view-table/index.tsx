@@ -1,7 +1,7 @@
 "use client";
 import { convertLocalToUTC } from "@/lib/date-time/utc-date";
 import { useGetLatestRevenueQuery } from "@/store/api/sales-revenue/sales-revenue-api";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import { useSalesRevenueFilterContext } from "@/components/modules/sales-revenue/SalesRevenueFilterContext";
 import { Link } from "@/components/navigation";
 import DefaultTable from "@/components/partials/table/DefaultTable";

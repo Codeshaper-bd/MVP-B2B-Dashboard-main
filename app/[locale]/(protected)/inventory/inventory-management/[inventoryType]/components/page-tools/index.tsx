@@ -2,7 +2,7 @@
 import { memo } from "react";
 
 import CreateInventoryDialog from "@/app/[locale]/(protected)/inventory/inventory-management/[inventoryType]/update-inventory/components/inventory-form/create-inventory-dialog";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import SearchComponent from "@/components/ui/search-component";
 
 import Filters from "./filters";

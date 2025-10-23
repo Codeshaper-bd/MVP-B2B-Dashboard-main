@@ -1,6 +1,6 @@
 import React from "react";
 
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 
 function NoProductFound() {
   return (

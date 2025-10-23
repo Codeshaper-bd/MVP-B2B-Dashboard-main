@@ -8,8 +8,8 @@ import FoodSelectContent, {
   type IFoodSelectContentProps,
 } from "@/components/FoodSelectContent";
 import type { TFoodCardProps } from "@/components/FoodSelectContent/FoodCardList/FoodCard";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,

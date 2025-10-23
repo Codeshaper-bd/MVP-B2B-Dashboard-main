@@ -1,5 +1,5 @@
 "use client";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import DefaultTable from "@/components/partials/table/DefaultTable";
 
 import { columns } from "./columns";

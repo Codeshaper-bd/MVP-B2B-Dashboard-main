@@ -1,6 +1,6 @@
 import AiMagicIcon from "@/components/icons/AiMagicIcon";
 import DoubleStarIcon from "@/components/icons/DoubleStarIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import RefreshIcon from "@/components/icons/RefreshIcon";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

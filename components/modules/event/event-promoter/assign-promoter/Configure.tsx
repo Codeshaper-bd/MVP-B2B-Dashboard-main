@@ -5,7 +5,7 @@ import { checkIsValidId } from "@/lib/query-management/check-valid-id";
 import type { TNullish } from "@/store/api/common-api-types";
 import { useCreateALinkTrackingMutation } from "@/store/api/link-tracking/link-tracking-api";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import type { IOption } from "@/components/SelectInput/DropDown/Option";
 import StatusAlert from "@/components/StatusAlert";

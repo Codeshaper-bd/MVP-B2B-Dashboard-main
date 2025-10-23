@@ -4,7 +4,7 @@ import { Fragment, useState } from "react";
 import { FormProvider, type SubmitHandler, useForm } from "react-hook-form";
 
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import {

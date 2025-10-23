@@ -3,7 +3,7 @@ import { useCallback } from "react";
 
 import useManageSearchParams from "@/hooks/useManageSearchParams";
 import type { TGetAllInventoryItemArgs } from "@/store/api/inventory-item/inventory-item.types";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import SelectInput from "@/components/SelectInput";
 import type { IOption } from "@/components/SelectInput/DropDown/Option";
 import TabCard, { type TTabOption } from "@/components/tab-card";

@@ -12,7 +12,7 @@ import { useGetAllTodoTagsQuery } from "@/store/api/todo/todo-api";
 import type { TGetAllTodoArgs } from "@/store/api/todo/todo.types";
 import CustomRadioGroup from "@/components/CustomRadioGroup";
 import type { ICustomRadioLabelProps } from "@/components/CustomRadioGroup/Radio/Label";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import FilterIcon from "@/components/icons/FilterIcon";
 import DateRangePickerDropDown from "@/components/modules/event/page-tools/Modal/DateRangePickerDropDown";
 import SelectInput from "@/components/SelectInput";

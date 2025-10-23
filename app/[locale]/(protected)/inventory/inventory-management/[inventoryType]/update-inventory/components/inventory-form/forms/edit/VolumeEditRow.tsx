@@ -20,9 +20,9 @@ import type {
   TVolumeWithShipmentVolume,
 } from "@/store/api/inventory-item/inventory-item.types";
 import UnitTypeDropdown from "@/components/features/dropdown/unit-type-dropdown";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
-import CrossIcon from "@/components/icons/CrossIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
+import { CrossIcon as CrossIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import InputCounter from "@/components/ui/InputCounter2";

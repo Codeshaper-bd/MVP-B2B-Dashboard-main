@@ -5,7 +5,7 @@ import { useFieldArray, useFormContext, useWatch } from "react-hook-form";
 import { cn } from "@/lib/utils";
 import type { ERedemptionType } from "@/store/api/loyalty-program/loyalty-program.types";
 import CustomRadioGroup from "@/components/CustomRadioGroup";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import XIcon from "@/components/icons/X";
 import { Button } from "@/components/ui/button";
 import NumberInput from "@/components/ui/NumberInput";

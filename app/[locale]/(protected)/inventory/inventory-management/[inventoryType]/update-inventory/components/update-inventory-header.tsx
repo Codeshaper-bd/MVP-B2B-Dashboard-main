@@ -1,7 +1,7 @@
 import { memo } from "react";
 
 import useBooleanState from "@/hooks/useBooleanState";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import SeparatorLabel from "@/components/separator-label";
 import { Button } from "@/components/ui/button";
 import { Collapsible, CollapsibleContent } from "@/components/ui/collapsible";

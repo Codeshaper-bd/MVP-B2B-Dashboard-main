@@ -3,7 +3,7 @@
 import { convertToNumber } from "@/lib/data-types/number";
 import { cn } from "@/lib/utils";
 import type { TNullish } from "@/store/api/common-api-types";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import { Link } from "@/components/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

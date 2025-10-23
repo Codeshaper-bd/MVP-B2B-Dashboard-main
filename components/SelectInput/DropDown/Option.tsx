@@ -4,7 +4,7 @@ import React, { useCallback } from "react";
 import { useBooleanContext } from "@/contexts/BooleanContext";
 import useMeasure from "@/hooks/useMeasure";
 import { cn } from "@/lib/utils";
-import CheckIcon from "@/components/icons/CheckIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
 
 import { useSelectInputContext } from "../SelectInputContext";
 

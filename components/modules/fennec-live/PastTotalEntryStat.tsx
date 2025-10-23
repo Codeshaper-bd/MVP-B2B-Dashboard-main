@@ -1,8 +1,8 @@
 import { checkIsValidId } from "@/lib/query-management/check-valid-id";
 import type { TNullish } from "@/store/api/common-api-types";
 import { useGetPastEventGuestListOverviewQuery } from "@/store/api/past-event/past-event-api";
-import FemaleIcon from "@/components/icons/FemaleIcon";
-import MaleIcon from "@/components/icons/MaleIcon";
+import { UserIcon as FemaleIcon } from "@/components/icons";
+import { UserIcon as MaleIcon } from "@/components/icons";
 import UserIcon from "@/components/icons/UserIcon";
 import RenderData from "@/components/render-data";
 import { Card, CardContent } from "@/components/ui/card";

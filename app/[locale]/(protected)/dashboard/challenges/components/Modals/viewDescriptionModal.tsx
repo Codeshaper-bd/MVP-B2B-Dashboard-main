@@ -9,7 +9,7 @@ import { useGetAChallengeQuery } from "@/store/api/challenges/challenges-api";
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
 import type { TCallbackData } from "@/components/features/cards/ItemCardList/ItemCard";
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import CheckListIcon from "@/components/icons/CheckListIcon";
 import RenderData from "@/components/render-data";
 import { Card, CardContent } from "@/components/ui/card";

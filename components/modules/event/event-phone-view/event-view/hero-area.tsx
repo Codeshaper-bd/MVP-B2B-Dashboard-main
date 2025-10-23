@@ -5,8 +5,8 @@ import { getImageFallback } from "@/lib/media/get-image-fallback";
 import type { TNullish } from "@/store/api/common-api-types";
 import type { TEvent } from "@/store/api/events/events.types";
 import ChevronLeftIcon from "@/components/icons/ChevronLeftIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 

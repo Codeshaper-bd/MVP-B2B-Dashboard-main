@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import type { TTimeRange } from "@/store/api/common-api-types";
 import { useGetTotalEngagementOfPromotionQuery } from "@/store/api/promotion/promotion-api";
 import type { TGetTotalEngagementOfPromotionArgs } from "@/store/api/promotion/promotion.types";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import PieChartIcon from "@/components/icons/PieChartIcon";
 import RenderData from "@/components/render-data";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";

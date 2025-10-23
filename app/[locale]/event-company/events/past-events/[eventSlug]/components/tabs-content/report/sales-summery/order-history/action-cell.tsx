@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import useFetchAnEventData from "@/hooks/data-fetch/useFetchAnEventData";
 import type { TPastEventOrder } from "@/store/api/past-event/past-event.types";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 
 function ActionCell({
   row: { original },

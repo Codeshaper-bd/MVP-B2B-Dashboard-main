@@ -1,6 +1,6 @@
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import type { TChallenge } from "@/store/api/challenges/challenges.types";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 import { Slider } from "@/components/ui/slider";
 

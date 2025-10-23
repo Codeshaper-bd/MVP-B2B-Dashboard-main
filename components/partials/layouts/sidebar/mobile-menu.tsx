@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { memo, useState } from "react";
 
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import {
   Drawer,
   DrawerClose,

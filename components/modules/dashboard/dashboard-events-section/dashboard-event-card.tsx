@@ -5,9 +5,9 @@ import { convertToNumber } from "@/lib/data-types/number";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import type { TEventSummary } from "@/store/api/dashboard/dashboard.types";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import DollarIcon from "@/components/icons/DollarIcon";
-import LocationIcon from "@/components/icons/LocationIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { DollarIcon as DollarIcon } from "@/components/icons";
+import { LocationIcon as LocationIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 

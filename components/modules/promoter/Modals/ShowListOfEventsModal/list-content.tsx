@@ -11,7 +11,7 @@ import {
 } from "@/store/api/promoters/promoters-api";
 import type { TGetAnPromotersArgs } from "@/store/api/promoters/promoters.types";
 import DeleteConfirmationDialog from "@/components/features/alert-dialog/DeleteConfirmationDialog";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import PostCardSkeleton from "@/components/skeleton/post-card-skeleton";
 import { Button } from "@/components/ui/button";

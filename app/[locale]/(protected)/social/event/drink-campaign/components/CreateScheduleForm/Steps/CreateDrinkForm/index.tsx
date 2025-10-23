@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import UploadSingleFile from "@/components/form/upload-single-file";
 import FileUploaderLabel from "@/components/form/upload-single-file/uploader-label";
 import AiMagicIcon from "@/components/icons/AiMagicIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import InfoOvalIcon from "@/components/icons/InfoOvalIcon";
 import SelectInput from "@/components/SelectInput";
 import { Button } from "@/components/ui/button";

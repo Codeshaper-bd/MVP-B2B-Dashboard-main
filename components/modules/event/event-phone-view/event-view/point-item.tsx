@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 interface PointItemProps {
   image: string;

@@ -3,8 +3,8 @@ import React from "react";
 
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
-import CalendarIcon from "@/components/icons/CalendarIcon";
-import ClockIcon from "@/components/icons/ClockIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
+import { ClockIcon as ClockIcon } from "@/components/icons";
 import FileX from "@/components/icons/FileX";
 import MoonIcon from "@/components/icons/MoonIcon";
 import { Button } from "@/components/ui/button";

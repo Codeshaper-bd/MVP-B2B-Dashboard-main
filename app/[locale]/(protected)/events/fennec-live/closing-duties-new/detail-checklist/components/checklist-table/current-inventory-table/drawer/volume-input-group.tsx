@@ -2,9 +2,9 @@
 import React, { Fragment, useState } from "react";
 
 import ChecklistStatusAlert from "@/components/features/checklist/ChecklistStatusAlert";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import DrawStraightLinePenIcon from "@/components/icons/DrawStraightLinePenIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,

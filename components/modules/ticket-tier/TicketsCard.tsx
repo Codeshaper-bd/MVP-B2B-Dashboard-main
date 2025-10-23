@@ -6,10 +6,10 @@ import type {
   TTicketTier,
   TTicketTierStatus,
 } from "@/store/api/ticket-tier/ticket-tier.types";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import DollarIcon from "@/components/icons/DollarIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { DollarIcon as DollarIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import PackageIcon from "@/components/icons/PackageIcon";
 import ShoppingCartIcon from "@/components/icons/ShoppingCartIcon";
 import TicketIcon from "@/components/icons/TicketIcon";

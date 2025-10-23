@@ -20,8 +20,8 @@ import type {
   TVolumeWithShipmentVolume,
 } from "@/store/api/inventory-item/inventory-item.types";
 import UnitTypeDropdown from "@/components/features/dropdown/unit-type-dropdown";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import InputCounter from "@/components/ui/InputCounter2";

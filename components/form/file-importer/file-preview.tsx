@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { calculateFileSize } from "@/components/form/file-uploader/utils";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface FilePreviewProps {

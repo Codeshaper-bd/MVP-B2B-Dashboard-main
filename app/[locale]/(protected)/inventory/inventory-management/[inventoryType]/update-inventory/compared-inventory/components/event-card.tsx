@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import CubeIcon from "@/components/icons/CubeIcon";
 import { Card, CardContent } from "@/components/ui/card";
 

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { cn } from "@/lib/utils";
-import EmailIcon from "@/components/icons/EmailIcon";
+import { MailIcon as EmailIcon } from "@/components/icons";
 
 export type TDataProps = {
   id: string | number;

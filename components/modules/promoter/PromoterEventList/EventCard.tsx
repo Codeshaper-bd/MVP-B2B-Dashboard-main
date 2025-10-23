@@ -9,10 +9,10 @@ import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import type { TEventType } from "@/store/api/events/events.types";
 import type { TPromoterEvent } from "@/store/api/promoter/promoter.types";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import DollarRoundedIcon from "@/components/icons/DollarRoundedIcon";
-import LocationIcon from "@/components/icons/LocationIcon";
+import { LocationIcon as LocationIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardTitle } from "@/components/ui/card";
 

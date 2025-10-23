@@ -2,7 +2,7 @@ import { checkIsValidId } from "@/lib/query-management/check-valid-id";
 import type { TIdOrSlugOrIdentifier } from "@/store/api/common-api-types";
 import { useGetSalesReportByAnEventQuery } from "@/store/api/sales-report/sales-report-api";
 import BankNoteIcon from "@/components/icons/BankNoteIcon";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import TicketIcon from "@/components/icons/TicketIcon";
 import WineIcon from "@/components/icons/WineIcon";
 import RenderData from "@/components/render-data";

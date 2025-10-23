@@ -3,8 +3,8 @@ import Image from "next/image";
 import { useState } from "react";
 
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import ClockIcon from "@/components/icons/ClockIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { ClockIcon as ClockIcon } from "@/components/icons";
 import LockLockedIcon from "@/components/icons/LockLockedIcon";
 import { Button } from "@/components/ui/button";
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 import type { TInventoryItemType } from "@/store/api/inventory-item/inventory-item.types";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
 
 export interface IQuickLinksCardProps {
   id: string | number;

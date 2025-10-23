@@ -4,8 +4,8 @@ import type { ColumnDef } from "@tanstack/react-table";
 
 import type { TNullish, TPagination } from "@/store/api/common-api-types";
 import type { TGetPastEventGuestListCheckIn } from "@/store/api/past-event/past-event.types";
-import FemaleIcon from "@/components/icons/FemaleIcon";
-import MaleIcon from "@/components/icons/MaleIcon";
+import { UserIcon as FemaleIcon } from "@/components/icons";
+import { UserIcon as MaleIcon } from "@/components/icons";
 
 export const getColumns = (
   props: TPagination | TNullish,

@@ -4,7 +4,7 @@ import type { TUseFetchEmployeePerformanceDataArgs } from "@/hooks/data-fetch/us
 import { getEmployeeStatusColor } from "@/lib/get-status-colors";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import { cn } from "@/lib/utils";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import DocumentIcon from "@/components/icons/DocumentIcon";
 import EditEmployeeDialog from "@/components/modules/employees/modals/EditEmployeeDialog";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";

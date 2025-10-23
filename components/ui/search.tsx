@@ -4,8 +4,8 @@ import { useForm, useWatch } from "react-hook-form";
 import * as Yup from "yup";
 
 import { cn } from "@/lib/utils";
-import CrossIcon from "@/components/icons/CrossIcon";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 
 export const SearchSchema = Yup.object({

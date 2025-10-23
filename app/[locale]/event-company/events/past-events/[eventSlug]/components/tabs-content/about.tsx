@@ -2,9 +2,9 @@ import { Fragment } from "react";
 
 import useFetchAnEventData from "@/hooks/data-fetch/useFetchAnEventData";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
-import ClockIcon from "@/components/icons/ClockIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
+import { ClockIcon as ClockIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

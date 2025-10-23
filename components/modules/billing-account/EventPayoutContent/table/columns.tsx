@@ -9,7 +9,7 @@ import { getRefundStatusColor } from "@/lib/get-status-colors";
 import { cn } from "@/lib/utils";
 import type { TGetAnEventPayout } from "@/store/api/events/events.types";
 import DownloadIcon from "@/components/icons/DownloadIcon";
-import EmailIcon from "@/components/icons/EmailIcon";
+import { MailIcon as EmailIcon } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 
 export const columns: ColumnDef<TGetAnEventPayout>[] = [

@@ -2,7 +2,7 @@ import { DialogDescription } from "@radix-ui/react-dialog";
 
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { DialogTrigger } from "@/components/ui/dialog";
 

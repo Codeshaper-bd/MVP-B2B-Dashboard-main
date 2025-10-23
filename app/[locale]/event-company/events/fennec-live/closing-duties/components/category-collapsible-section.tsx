@@ -2,9 +2,9 @@
 import React, { useState } from "react";
 import { useFormContext } from "react-hook-form";
 
-import DollarIcon from "@/components/icons/DollarIcon";
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { CardTitle } from "@/components/ui/card";
 import {

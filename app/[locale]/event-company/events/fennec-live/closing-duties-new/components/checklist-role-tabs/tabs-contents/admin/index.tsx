@@ -6,8 +6,8 @@ import { ChecklistItemCard } from "@/components/features/checklist/checklistItem
 import CashOutSummaryDialog from "@/components/features/checklist/modals/cashout-summary-modal";
 import DiscountAmountDialog from "@/components/features/checklist/modals/discount-amount-modal";
 import DiscountPercentageDialog from "@/components/features/checklist/modals/discount-percentage-modal";
-import InfoIcon from "@/components/icons/InfoIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import VueSaxArrowCircleUpIcon from "@/components/icons/VueSaxArrowCircleUpIcon";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";

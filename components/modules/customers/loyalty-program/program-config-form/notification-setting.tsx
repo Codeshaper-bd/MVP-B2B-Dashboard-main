@@ -1,6 +1,6 @@
 import { useFormContext } from "react-hook-form";
 
-import DataBaseIcon from "@/components/icons/DataBaseIcon";
+import { DatabaseIcon as DataBaseIcon } from "@/components/icons";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import NumberInput from "@/components/ui/NumberInput";

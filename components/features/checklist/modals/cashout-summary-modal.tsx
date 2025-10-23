@@ -1,4 +1,4 @@
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import {
   AlertDialog,
   AlertDialogContent,

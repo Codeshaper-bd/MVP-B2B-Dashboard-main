@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useFormContext, useWatch } from "react-hook-form";
 
 import { cn } from "@/lib/utils";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useBooleanContext } from "@/contexts/BooleanContext";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 import { useSelectInputContext } from "./SelectProvider";

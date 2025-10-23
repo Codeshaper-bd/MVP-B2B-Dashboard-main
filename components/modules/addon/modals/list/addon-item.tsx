@@ -2,9 +2,9 @@ import { memo, useCallback, useMemo } from "react";
 
 import { getAvatarFallbackName } from "@/lib/user/get-avatar-fallback-name";
 import type { TAddOn } from "@/store/api/add-ons/add-ons.types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

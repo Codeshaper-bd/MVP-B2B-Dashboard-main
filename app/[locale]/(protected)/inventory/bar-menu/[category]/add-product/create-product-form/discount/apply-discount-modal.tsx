@@ -3,9 +3,9 @@ import { memo, useRef } from "react";
 
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
-import ClockIcon from "@/components/icons/ClockIcon";
+import { ClockIcon as ClockIcon } from "@/components/icons";
 import DiscountIcon from "@/components/icons/DiscountIcon";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import SelectInput from "@/components/SelectInput";
 import type { IOption } from "@/components/SelectInput/DropDown/Option";
 import { Button } from "@/components/ui/button";

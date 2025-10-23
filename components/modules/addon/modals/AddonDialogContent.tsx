@@ -4,7 +4,7 @@ import { convertToNumber } from "@/lib/data-types/number";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import { calculateSerialNumber } from "@/lib/pagination/calculate-serial-number";
 import { useGetAddonPurchasedQuery } from "@/store/api/add-ons/add-ons-api";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import {
   Table,

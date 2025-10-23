@@ -11,7 +11,7 @@ import type {
 } from "@/store/api/inventory-item/inventory-item.types";
 import { useDialogContext } from "@/components/CustomizedDialog/DialogContext";
 import FileInputButton from "@/components/form/file-input-button2";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import SelectInput from "@/components/SelectInput";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

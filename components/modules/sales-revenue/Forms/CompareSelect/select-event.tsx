@@ -9,7 +9,7 @@ import useBooleanState from "@/hooks/useBooleanState";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import { cn } from "@/lib/utils";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import ChangeEvent from "@/components/modules/sales-revenue/FilterOptions/ChangeEvent";
 import type { TSelectOptionData } from "@/components/modules/sales-revenue/FilterOptions/EventSelect";
 import { Button } from "@/components/ui/button";

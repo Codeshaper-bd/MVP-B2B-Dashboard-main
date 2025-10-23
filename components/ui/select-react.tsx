@@ -9,7 +9,7 @@ import ReactSelect, {
 } from "react-select";
 
 import { getStatusColors } from "@/lib/get-status-colors";
-import CheckIcon from "@/components/icons/CheckIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
 
 interface ControlProps {
   isDisabled?: boolean;

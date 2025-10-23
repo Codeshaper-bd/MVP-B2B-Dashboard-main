@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import DollarRoundedIcon from "@/components/icons/DollarRoundedIcon";
 import StarIcon from "@/components/icons/StarIcon";
 import WineIcon from "@/components/icons/WineIcon";

@@ -1,6 +1,6 @@
 import { useFormContext } from "react-hook-form";
 
-import DataBaseIcon from "@/components/icons/DataBaseIcon";
+import { DatabaseIcon as DataBaseIcon } from "@/components/icons";
 import SelectInput from "@/components/SelectInput";
 import NumberInput from "@/components/ui/NumberInput";
 

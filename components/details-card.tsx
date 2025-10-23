@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 
 export type DetailsCardProps = {

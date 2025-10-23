@@ -8,8 +8,8 @@ import type {
   TAddOn,
   TUpdateAnAddOnArgs,
 } from "@/store/api/add-ons/add-ons.types";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";

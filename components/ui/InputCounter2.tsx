@@ -3,8 +3,8 @@ import React, { forwardRef, useEffect, useState } from "react";
 
 import { convertToNumber } from "@/lib/data-types/number";
 import { cn } from "@/lib/utils";
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 
 import { Input, type TInputProps } from "./input";
 

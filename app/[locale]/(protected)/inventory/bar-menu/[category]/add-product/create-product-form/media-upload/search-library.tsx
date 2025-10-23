@@ -7,7 +7,7 @@ import type { TNullish } from "@/store/api/common-api-types";
 import { useGetAllMediaQuery } from "@/store/api/media/media-api";
 import type { TMedia } from "@/store/api/media/media.types";
 import LeftArrowIcon from "@/components/icons/LeftArrowIcon";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import LabelErrorWrapper from "@/components/ui/LabelErrorWrapper";

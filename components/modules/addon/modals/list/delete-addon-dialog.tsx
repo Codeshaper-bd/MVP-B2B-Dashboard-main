@@ -13,7 +13,7 @@ import type {
 } from "@/store/api/add-ons/add-ons.types";
 import type { TNullish } from "@/store/api/common-api-types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";

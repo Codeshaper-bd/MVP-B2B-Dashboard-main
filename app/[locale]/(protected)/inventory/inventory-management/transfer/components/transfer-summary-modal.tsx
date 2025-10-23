@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import type { TBar } from "@/store/api/bars/bars.types";
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import SwitchHorizontalIcon from "@/components/icons/SwitchHorizontalIcon";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";

@@ -5,7 +5,7 @@ import type { TInventoryItemType } from "@/store/api/inventory-item/inventory-it
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import WineIcon from "@/components/icons/WineIcon";
 import { Button } from "@/components/ui/button";
 import { DialogTrigger } from "@/components/ui/dialog";

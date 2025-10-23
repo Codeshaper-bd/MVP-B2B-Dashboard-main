@@ -9,7 +9,7 @@ import {
 } from "@/hooks/data-fetch/useFetchEmployeePerformanceData";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getActivityLink } from "@/lib/get-activity-link";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
 import { NoDataFound } from "@/components/icons/NoDataFound";
 import AnalyticsEmployeeInfo from "@/components/modules/employees/analytics/AnalyticsEmployeeInfo";
 import GuestListCard from "@/components/modules/employees/analytics/GuestListCard";

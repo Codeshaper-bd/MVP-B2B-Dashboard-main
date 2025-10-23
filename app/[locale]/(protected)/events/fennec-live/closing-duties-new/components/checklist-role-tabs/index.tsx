@@ -3,8 +3,8 @@
 import { memo, useCallback, useMemo, useState } from "react";
 
 import useManageSearchParams from "@/hooks/useManageSearchParams";
-import CheckIcon from "@/components/icons/CheckIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import EventTab, { type TTabItem } from "@/components/modules/event/EventTab";
 import type { TTabOption } from "@/components/tab-card";
 

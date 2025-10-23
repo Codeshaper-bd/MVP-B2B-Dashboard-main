@@ -1,6 +1,6 @@
 import BackgroundBanner from "@/components/background-banner";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import GlassIcon from "@/components/icons/GlassIcon";
 import LineChartUpIcon from "@/components/icons/LineChartUpIcon";
 import NetworkBarIcon from "@/components/icons/NetworkBarIcon";

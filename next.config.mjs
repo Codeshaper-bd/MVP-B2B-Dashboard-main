@@ -10,8 +10,39 @@ if (isCI) {
 } else {
   console.log("🧪 Local or non-standalone build");
 }
+
+// Bundle analyzer setup
+let withBundleAnalyzer = (config) => config;
+if (process.env.ANALYZE === "true") {
+  try {
+    const bundleAnalyzer = require("@next/bundle-analyzer")({
+      enabled: true,
+    });
+    withBundleAnalyzer = bundleAnalyzer;
+  } catch (error) {
+    console.log("Bundle analyzer not available, skipping...");
+  }
+}
+
 const nextConfig = {
   ...(isCI && { output: "standalone" }),
+
+  // Performance optimizations
+  swcMinify: true,
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
+  },
+
+  // Experimental optimizations for package imports
+  experimental: {
+    optimizePackageImports: [
+      "lucide-react",
+      "@radix-ui/react-icons",
+      "react-icons",
+      "@iconify/react",
+    ],
+  },
+
   images: {
     remotePatterns: [
       {
@@ -54,4 +85,4 @@ const nextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+export default withBundleAnalyzer(withNextIntl(nextConfig));

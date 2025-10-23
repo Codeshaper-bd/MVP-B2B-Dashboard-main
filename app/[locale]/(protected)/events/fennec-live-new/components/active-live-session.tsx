@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import LiveStreamingIcon from "@/components/icons/LiveStreamingIcon";
 import BgRings from "@/components/ui/BgRings";
 import { Button } from "@/components/ui/button";

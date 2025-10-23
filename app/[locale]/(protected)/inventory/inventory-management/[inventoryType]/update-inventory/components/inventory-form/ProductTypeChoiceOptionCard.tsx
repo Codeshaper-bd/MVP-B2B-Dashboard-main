@@ -2,7 +2,7 @@ import Image from "next/image";
 import { memo } from "react";
 
 import { cn } from "@/lib/utils";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 
 import type { IProductTypeOption } from "./ProductTypeChoiceModalContent";
 

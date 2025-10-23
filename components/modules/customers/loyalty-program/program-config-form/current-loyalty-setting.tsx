@@ -3,7 +3,7 @@
 import { useFormContext } from "react-hook-form";
 
 import CustomRadioGroup from "@/components/CustomRadioGroup";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import SelectInput from "@/components/SelectInput";
 import { Icon } from "@/components/ui/icon";
 import { Label } from "@/components/ui/label";

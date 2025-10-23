@@ -6,7 +6,7 @@ import { contentPerPageOptions } from "@/config/client-config";
 import useManageSearchParams from "@/hooks/useManageSearchParams";
 import { useGetAllEventQuery } from "@/store/api/events/events-api";
 import { type TGetAllEventArgs } from "@/store/api/events/events.types";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import BasicPagination from "@/components/pagination/basic-pagination";
 import RenderData from "@/components/render-data";
 import PostCardSkeleton from "@/components/skeleton/post-card-skeleton";

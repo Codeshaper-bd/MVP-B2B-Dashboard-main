@@ -4,7 +4,7 @@ import { Controller, useForm } from "react-hook-form";
 
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { CopyInput } from "@/components/copy-input";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import SquarePenIcon from "@/components/icons/SquarePenIcon";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";

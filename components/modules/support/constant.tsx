@@ -1,4 +1,4 @@
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import GroupUsersIcon from "@/components/icons/GroupUsersIcon";
 import PayCardIcon from "@/components/icons/PaycardIcon";
 import PlaneIcon from "@/components/icons/PlaneIcon";

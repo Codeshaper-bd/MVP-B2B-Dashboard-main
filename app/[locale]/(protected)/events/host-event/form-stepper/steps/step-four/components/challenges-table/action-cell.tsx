@@ -12,8 +12,8 @@ import useBooleanState from "@/hooks/useBooleanState";
 import { localStorageUtil } from "@/lib/localStorageUtil";
 import type { TChallenge } from "@/store/api/challenges/challenges.types";
 import type { TNullish } from "@/store/api/common-api-types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 
 import type { IStepFormInputs } from "../../../../type";
 

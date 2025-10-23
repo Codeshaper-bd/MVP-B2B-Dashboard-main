@@ -7,7 +7,7 @@ import { useMenuHoverConfig } from "@/hooks/use-menu-hover";
 import { useMobileMenuConfig } from "@/hooks/use-mobile-menu";
 import type { Submenu, TMenuIcon } from "@/lib/menus/types";
 import { cn } from "@/lib/utils";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import { Link, usePathname } from "@/components/navigation";
 import { Button } from "@/components/ui/button";
 import {

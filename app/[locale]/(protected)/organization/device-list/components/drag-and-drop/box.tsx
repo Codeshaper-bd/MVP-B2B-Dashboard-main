@@ -9,7 +9,7 @@ import {
 import React, { forwardRef, useState } from "react";
 
 import { cn } from "@/lib/utils";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 import CreateDevice from "../../../devices/components/create-device";

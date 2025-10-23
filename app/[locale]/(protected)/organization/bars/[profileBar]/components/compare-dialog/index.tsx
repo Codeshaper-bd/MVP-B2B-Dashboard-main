@@ -15,7 +15,7 @@ import useBooleanState from "@/hooks/useBooleanState";
 import useManageSearchParams from "@/hooks/useManageSearchParams";
 import { useGetAllBarsQuery } from "@/store/api/bars/bars-api";
 import type { TIdOrSlugOrIdentifier } from "@/store/api/common-api-types";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import RefreshIcon from "@/components/icons/RefreshIcon";
 import RenderData from "@/components/render-data";
 import { Button } from "@/components/ui/button";

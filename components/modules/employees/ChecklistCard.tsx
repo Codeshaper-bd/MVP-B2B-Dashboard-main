@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 

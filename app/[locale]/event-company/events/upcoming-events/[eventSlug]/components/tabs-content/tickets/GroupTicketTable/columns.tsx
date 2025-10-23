@@ -3,8 +3,8 @@
 import type { ColumnDef } from "@tanstack/react-table";
 
 import { cn } from "@/lib/utils";
-import FemaleIcon from "@/components/icons/FemaleIcon";
-import MaleIcon from "@/components/icons/MaleIcon";
+import { UserIcon as FemaleIcon } from "@/components/icons";
+import { UserIcon as MaleIcon } from "@/components/icons";
 
 export type TDataProps = {
   id: string | number;

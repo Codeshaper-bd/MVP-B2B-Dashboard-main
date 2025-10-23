@@ -9,7 +9,7 @@ import type {
 import type { TEvent } from "@/store/api/events/events.types";
 import type { TLinkTracking } from "@/store/api/link-tracking/link-tracking.types";
 import { CopyInput } from "@/components/copy-input";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import LinkIcon from "@/components/icons/LinkIcon";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";

@@ -6,7 +6,7 @@ import { getImageFallback } from "@/lib/media/get-image-fallback";
 import { cn } from "@/lib/utils";
 import type { TNullish } from "@/store/api/common-api-types";
 import type { TEvent, TGetAllEventArgs } from "@/store/api/events/events.types";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface ITransferEventCardProps {

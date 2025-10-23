@@ -4,7 +4,7 @@ import { memo } from "react";
 import { FormProvider } from "react-hook-form";
 
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
 import ScheduleEvent from "@/components/modules/event/modals/ScheduleEvent";
 import RenderData from "@/components/render-data";
 import { Button } from "@/components/ui/button";

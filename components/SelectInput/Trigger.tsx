@@ -5,7 +5,7 @@ import { forwardRef, useCallback } from "react";
 import { useBooleanContext } from "@/contexts/BooleanContext";
 import useMeasure from "@/hooks/useMeasure";
 import { cn } from "@/lib/utils";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import { selectVariants } from "@/components/ui/select";
 
 import type { IOption } from "./DropDown/Option";

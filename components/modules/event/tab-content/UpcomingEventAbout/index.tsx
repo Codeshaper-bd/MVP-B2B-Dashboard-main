@@ -8,7 +8,7 @@ import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import DatePickerField from "@/components/date-time/DatePickerField";
 import FileUploader from "@/components/form/file-uploader2";
 import FileUploaderLabel from "@/components/form/file-uploader2/file-uploader-label";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import ViewEventTax from "@/components/modules/event/ViewEventTax";
 import AddOrEditVenueDialog from "@/components/modules/venue/modals/AddOrEditVenueDialog";
 import RenderData from "@/components/render-data";

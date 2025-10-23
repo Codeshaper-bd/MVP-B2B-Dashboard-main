@@ -1,7 +1,7 @@
 import React from "react";
 
 import CustomizedDialog from "@/components/CustomizedDialog";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Dialog } from "@/components/ui/dialog";
 
 function DateRangeModalInfo({

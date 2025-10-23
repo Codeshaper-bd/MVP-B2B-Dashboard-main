@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { CategoryCard } from "@/components/category-card";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 import PaymentMethodCheckbox, {

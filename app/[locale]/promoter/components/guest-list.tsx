@@ -1,7 +1,7 @@
 import useManageSearchParams from "@/hooks/useManageSearchParams";
 import { useGetPromotersTicketSoldQuery } from "@/store/api/promoter/promoter-api";
-import FemaleIcon from "@/components/icons/FemaleIcon";
-import MaleIcon from "@/components/icons/MaleIcon";
+import { UserIcon as FemaleIcon } from "@/components/icons";
+import { UserIcon as MaleIcon } from "@/components/icons";
 import TierCard from "@/components/modules/tiers/TierCard";
 import RenderData from "@/components/render-data";
 import InputSkeleton from "@/components/skeleton/input-skeleton";

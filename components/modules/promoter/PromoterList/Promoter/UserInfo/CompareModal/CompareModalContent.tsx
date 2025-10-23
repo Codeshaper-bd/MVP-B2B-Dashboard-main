@@ -9,7 +9,7 @@ import type {
 } from "@/store/api/common-api-types";
 import { useGetPromoterRevenueQuery } from "@/store/api/promoters/promoters-api";
 import type { TGetPromoterRevenueArgs } from "@/store/api/promoters/promoters.types";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import AreaChartSkeleton from "@/components/skeleton/area-chart-skeleton";
 import { Button } from "@/components/ui/button";

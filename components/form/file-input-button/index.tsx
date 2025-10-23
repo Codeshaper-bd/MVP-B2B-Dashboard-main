@@ -1,7 +1,7 @@
 "use client";
 import { forwardRef, useCallback, useId, useRef } from "react";
 
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import LabelErrorWrapper from "@/components/ui/LabelErrorWrapper";
 
 import ImagePreview from "./ImagePreview";

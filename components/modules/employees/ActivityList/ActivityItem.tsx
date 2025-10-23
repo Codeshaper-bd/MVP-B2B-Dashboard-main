@@ -3,7 +3,7 @@ import Link from "next/link";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getActivityLink } from "@/lib/get-activity-link";
 import type { TGetAnEmployeeActivityData } from "@/store/api/employees-logs/employees-log.types";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
 interface IActivityItemProps {
   activity: TGetAnEmployeeActivityData;
 }

@@ -8,7 +8,7 @@ import { getActivityLink } from "@/lib/get-activity-link";
 import { useGetAnEmployeeActivityQuery } from "@/store/api/employees-logs/employees-log-api";
 import { selectAuthUserId } from "@/store/features/auth";
 import { useAppSelector } from "@/store/hooks";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import InputSkeleton from "@/components/skeleton/input-skeleton";
 

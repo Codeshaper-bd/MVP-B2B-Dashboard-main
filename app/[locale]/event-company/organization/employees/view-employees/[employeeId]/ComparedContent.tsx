@@ -9,7 +9,7 @@ import {
 import useManageSearchParams from "@/hooks/useManageSearchParams";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getActivityLink } from "@/lib/get-activity-link";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
 import { NoDataFound } from "@/components/icons/NoDataFound";
 import ActivityList from "@/components/modules/employees/ActivityList";
 import BartendarCard from "@/components/modules/employees/compared/BartenderCard";

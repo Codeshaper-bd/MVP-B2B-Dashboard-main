@@ -1,6 +1,6 @@
 import DynamicBreadcrumb from "@/components/dynamic-breadcrumb";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import ClockIcon from "@/components/icons/ClockIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { ClockIcon as ClockIcon } from "@/components/icons";
 import CommentIcon from "@/components/icons/CommentIcon";
 import CopyIcon from "@/components/icons/CopyIcon";
 import EyeIcon from "@/components/icons/EyeIcon";

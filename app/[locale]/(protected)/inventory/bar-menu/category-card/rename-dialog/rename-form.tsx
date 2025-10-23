@@ -7,7 +7,7 @@ import { useUpdateABarMenuMutation } from "@/store/api/bar-menu/bar-menu-api";
 import type { TBarMenu } from "@/store/api/bar-menu/bar-menu.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import { useDialogContext } from "@/components/CustomizedDialog/DialogContext";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/components/ui/use-toast";

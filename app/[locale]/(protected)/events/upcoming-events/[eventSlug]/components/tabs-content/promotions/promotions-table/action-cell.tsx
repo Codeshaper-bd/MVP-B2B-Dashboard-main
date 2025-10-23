@@ -7,8 +7,8 @@ import EditPromotionModal from "@/app/[locale]/(protected)/dashboard/promotions/
 import useBooleanState from "@/hooks/useBooleanState";
 import { cn } from "@/lib/utils";
 import type { TPromotion } from "@/store/api/promotion/promotion.types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import QrCodeIcon from "@/components/icons/QrCodeIcon";
 import { usePathname } from "@/components/navigation";
 import ViewQrCodeModal from "@/components/qr-code-modal";

@@ -4,7 +4,7 @@ import { memo } from "react";
 
 import useBooleanState from "@/hooks/useBooleanState";
 import type { TChallenge } from "@/store/api/challenges/challenges.types";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 

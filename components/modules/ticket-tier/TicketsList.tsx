@@ -22,7 +22,7 @@ import type {
   TDeleteATicketTierMutation,
 } from "@/store/api/ticket-tier/ticket-tier.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import EditTierDialog from "@/components/modules/ticket-tier/modals/edit-tier-dialog";
 import OutlinePagination from "@/components/pagination/outline-pagination";
 import RenderData from "@/components/render-data";

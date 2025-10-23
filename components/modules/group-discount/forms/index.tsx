@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { type TNullish } from "@/store/api/common-api-types";
 import { type TEvent } from "@/store/api/events/events.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import RenderData, { type IApiStateInfo } from "@/components/render-data";
 import { Button } from "@/components/ui/button";
 import {

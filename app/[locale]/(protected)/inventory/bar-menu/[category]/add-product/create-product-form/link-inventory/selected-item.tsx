@@ -3,7 +3,7 @@ import { memo } from "react";
 import { Controller, useFormContext, useWatch } from "react-hook-form";
 
 import { toRegularCase } from "@/lib/strings/toRegularCase";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

@@ -1,10 +1,10 @@
 "use client";
 import React, { Fragment, useState } from "react";
 
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import MinusIcon2 from "@/components/icons/MinusIcon2";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import SelectInput from "@/components/SelectInput";
 import { Button } from "@/components/ui/button";
 import {

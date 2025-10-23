@@ -5,7 +5,7 @@ import AsyncSelect from "react-select/async";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import type { TCustomerLookup } from "@/store/api/customer-lookup/customer-lookup.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import DataBaseIcon from "@/components/icons/DataBaseIcon";
+import { DatabaseIcon as DataBaseIcon } from "@/components/icons";
 import type { IOption } from "@/components/SelectInput/DropDown/Option";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";

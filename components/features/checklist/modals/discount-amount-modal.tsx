@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import DollarRoundedIcon from "@/components/icons/DollarRoundedIcon";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog, AlertDialogTrigger } from "@/components/ui/alert-dialog";

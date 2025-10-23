@@ -5,7 +5,7 @@ import type { TNullish } from "@/store/api/common-api-types";
 import { useUpdateAnEventMutation } from "@/store/api/events/events-api";
 import type { TEvent } from "@/store/api/events/events.types";
 import ConfirmationDialog from "@/components/features/alert-dialog/confirmationDialog";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import { Switch } from "@/components/ui/switch";
 import { useToast } from "@/components/ui/use-toast";
 interface IGroupDiscountSwitchProps {

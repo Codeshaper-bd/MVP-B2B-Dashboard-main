@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

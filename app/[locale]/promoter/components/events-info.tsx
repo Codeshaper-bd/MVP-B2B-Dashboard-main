@@ -17,7 +17,7 @@ import {
 import type { TEvent } from "@/store/api/promoter/promoter.types";
 import { useGetPromotersTrackingLinkQuery } from "@/store/api/promoters/promoters-api";
 import { CopyInput } from "@/components/copy-input";
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import LinkIcon from "@/components/icons/LinkIcon";
 import UserIcon from "@/components/icons/UserIcon";
 import RenderData from "@/components/render-data";

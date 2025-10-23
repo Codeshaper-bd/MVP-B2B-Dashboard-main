@@ -4,7 +4,7 @@ import type { TGender } from "@/store/api/auth/auth.types";
 import type { TNullish } from "@/store/api/common-api-types";
 import type { TCustomerLookup } from "@/store/api/customer-lookup/customer-lookup.types";
 import { CopyInput } from "@/components/copy-input";
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import LabelErrorWrapper from "@/components/ui/LabelErrorWrapper";

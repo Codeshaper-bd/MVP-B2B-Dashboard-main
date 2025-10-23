@@ -18,8 +18,8 @@ import type {
   TVolumeItem,
   TVolumeWithShipmentVolume,
 } from "@/store/api/inventory-item/inventory-item.types";
-import CrossIcon from "@/components/icons/CrossIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import InputCounter from "@/components/ui/InputCounter2";

@@ -6,7 +6,7 @@ import React, { memo, useCallback, useState } from "react";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import { cn } from "@/lib/utils";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 
 import { type TSelectOptionData } from "./EventSelect";

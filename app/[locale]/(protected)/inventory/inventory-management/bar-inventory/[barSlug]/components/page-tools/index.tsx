@@ -5,7 +5,7 @@ import { useCallback } from "react";
 import useManageSearchParams from "@/hooks/useManageSearchParams";
 import type { TGetAllInventoryItemArgs } from "@/store/api/inventory-item/inventory-item.types";
 import SoldByDropDown from "@/components/features/dropdown/SoldByDropDown";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import TabCard, { type TTabOption } from "@/components/tab-card";
 import SearchComponent from "@/components/ui/search-component";
 

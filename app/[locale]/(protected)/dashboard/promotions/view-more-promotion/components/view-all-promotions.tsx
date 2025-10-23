@@ -24,7 +24,7 @@ import type {
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import ItemCardList from "@/components/features/cards/ItemCardList";
 import type { TCallbackData } from "@/components/features/cards/ItemCardList/ItemCard";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import BasicPagination from "@/components/pagination/basic-pagination";
 import ViewQrCodeModal from "@/components/qr-code-modal";
 import RenderData from "@/components/render-data";

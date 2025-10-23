@@ -9,7 +9,7 @@ import type { TGetBankDetails } from "@/store/api/bank-details/bank-details.type
 import CustomRadioGroup from "@/components/CustomRadioGroup";
 import DeleteConfirmationDialog from "@/components/features/alert-dialog/DeleteConfirmationDialog";
 import BankIcon from "@/components/icons/BankIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 

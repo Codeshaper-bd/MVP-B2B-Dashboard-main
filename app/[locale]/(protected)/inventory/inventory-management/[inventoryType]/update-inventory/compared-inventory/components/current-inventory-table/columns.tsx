@@ -4,7 +4,7 @@ import type { ColumnDef, Table } from "@tanstack/react-table";
 
 import { cn } from "@/lib/utils";
 import DownArrowIcon from "@/components/icons/DownArrowIcon";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";

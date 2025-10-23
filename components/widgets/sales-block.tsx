@@ -7,7 +7,7 @@ import { getArraySum } from "@/lib/array/getArraySum";
 import type { IApexAreaChartSeries } from "@/lib/charts/types";
 import { convertToNumber } from "@/lib/data-types/number";
 import { cn } from "@/lib/utils";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import { Link } from "@/components/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

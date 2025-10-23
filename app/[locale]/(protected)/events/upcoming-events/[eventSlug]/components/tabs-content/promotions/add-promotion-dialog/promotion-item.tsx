@@ -7,9 +7,9 @@ import {
   EPromotionType,
   type TPromotion,
 } from "@/store/api/promotion/promotion.types";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import DataBaseIcon from "@/components/icons/DataBaseIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { DatabaseIcon as DataBaseIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";

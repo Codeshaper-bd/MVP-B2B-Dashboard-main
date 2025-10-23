@@ -5,7 +5,7 @@ import { useMemo } from "react";
 
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import type { TOrganizationPromoter } from "@/store/api/promoter/promoter.types";
-import LocationIcon from "@/components/icons/LocationIcon";
+import { LocationIcon as LocationIcon } from "@/components/icons";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
 interface INightClubCardProps {

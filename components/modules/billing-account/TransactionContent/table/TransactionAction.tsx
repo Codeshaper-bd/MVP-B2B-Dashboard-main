@@ -7,7 +7,7 @@ import type { TNullish } from "@/store/api/common-api-types";
 import { useLazyDownloadInvoiceByIdQuery } from "@/store/api/transactions/transactions-api";
 import type { TTransaction } from "@/store/api/transactions/transactions.types";
 import DownloadIcon from "@/components/icons/DownloadIcon";
-import EmailIcon from "@/components/icons/EmailIcon";
+import { MailIcon as EmailIcon } from "@/components/icons";
 import EyeIcon from "@/components/icons/EyeIcon";
 
 import ViewTransaction from "../../modals/ViewTransaction";

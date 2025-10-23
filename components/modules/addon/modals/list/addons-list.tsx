@@ -8,7 +8,7 @@ import type {
   TIdOrSlugOrIdentifier,
   TNullish,
 } from "@/store/api/common-api-types";
-import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import { ChevronDownIcon as ChevronDownIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import { Button } from "@/components/ui/button";
 

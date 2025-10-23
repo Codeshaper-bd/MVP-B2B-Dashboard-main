@@ -1,6 +1,6 @@
 import React from "react";
 
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 
 import BartenderTable from "./coatcheck-bartender-table";
 import CoatcheckCheckListTable from "./coatcheck-checklist-table";

@@ -6,7 +6,7 @@ import type { TIdOrSlugOrIdentifier } from "@/store/api/common-api-types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import PencilIcon from "@/components/icons/PencilIcon";
 import CustomerIcon from "@/components/icons/sidebar/CustomerIcon";
 import CreateEmployeeForm from "@/components/modules/employees/form";

@@ -10,7 +10,7 @@ import CustomRadioGroup from "@/components/CustomRadioGroup";
 import DatePickerField from "@/components/date-time/DatePickerField";
 import FileUploader from "@/components/form/file-uploader2";
 import AiMagicIcon from "@/components/icons/AiMagicIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import AddOrEditVenueDialog from "@/components/modules/venue/modals/AddOrEditVenueDialog";
 import SelectInput from "@/components/SelectInput";
 import { Button } from "@/components/ui/button";

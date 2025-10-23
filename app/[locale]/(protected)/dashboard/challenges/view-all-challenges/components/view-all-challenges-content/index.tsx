@@ -18,7 +18,7 @@ import type { TGetAllChallengeArgs } from "@/store/api/challenges/challenges.typ
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import ItemCardList from "@/components/features/cards/ItemCardList";
 import type { TCallbackData } from "@/components/features/cards/ItemCardList/ItemCard";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import BasicPagination from "@/components/pagination/basic-pagination";
 import RenderData from "@/components/render-data";
 import ChallengeSkeleton from "@/components/skeleton/challenge-skeleton";

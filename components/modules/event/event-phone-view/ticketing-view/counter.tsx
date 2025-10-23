@@ -1,7 +1,7 @@
 "use client";
 
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 function Counter({ count = 0 }: { count?: number }) {

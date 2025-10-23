@@ -1,8 +1,8 @@
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
-import EmailIcon from "@/components/icons/EmailIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
+import { MailIcon as EmailIcon } from "@/components/icons";
 import GroupUsersIcon from "@/components/icons/GroupUsersIcon";
-import LocationIcon from "@/components/icons/LocationIcon";
+import { LocationIcon as LocationIcon } from "@/components/icons";
 import PhoneCallIcon from "@/components/icons/PhoneCallIcon";
 import AddOrEditVenueDialog from "@/components/modules/venue/modals/AddOrEditVenueDialog";
 import { Button } from "@/components/ui/button";

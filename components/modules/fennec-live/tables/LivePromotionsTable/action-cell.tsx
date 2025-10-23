@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import { useUpdateAFennecLiveB2BPromotionsMutation } from "@/store/api/fennec-live/fennec-live-api";
 import type { TGetFennecLiveB2BPromotions } from "@/store/api/fennec-live/fennec-live.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";

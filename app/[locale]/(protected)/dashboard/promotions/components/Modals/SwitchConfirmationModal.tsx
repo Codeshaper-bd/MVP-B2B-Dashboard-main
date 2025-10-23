@@ -11,7 +11,7 @@ import {
 } from "@/store/api/promotion/promotion-api";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import type { TCallbackData } from "@/components/features/cards/ItemCardList/ItemCard";
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import BgRings from "@/components/ui/BgRings";

@@ -3,8 +3,8 @@ import { forwardRef } from "react";
 
 import { ensureNumberInStepRange } from "@/lib/data-types/number/ensure-number-in-step-range";
 import { blockInvalidKeys } from "@/lib/key/block-invalid-keys";
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 
 interface IInputCounterProps {

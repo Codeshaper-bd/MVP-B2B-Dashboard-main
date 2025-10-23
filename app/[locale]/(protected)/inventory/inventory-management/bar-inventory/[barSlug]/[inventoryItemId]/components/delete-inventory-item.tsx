@@ -6,7 +6,7 @@ import { useSoftDeleteBarInventoryItemMutation } from "@/store/api/bar-inventory
 import type { TTBarInventoryItemData } from "@/store/api/bar-inventory/bar-inventory.types";
 import type { TNullish } from "@/store/api/common-api-types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog, AlertDialogTrigger } from "@/components/ui/alert-dialog";

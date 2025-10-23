@@ -1,6 +1,6 @@
 import React from "react";
 
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 
 function UserRoleCard() {
   return (

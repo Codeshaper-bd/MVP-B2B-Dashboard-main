@@ -7,8 +7,8 @@ import type {
   TCheckInStatus,
   TGetFennecLiveGuestlistItem,
 } from "@/store/api/fennec-live/fennec-live.types";
-import FemaleIcon from "@/components/icons/FemaleIcon";
-import MaleIcon from "@/components/icons/MaleIcon";
+import { UserIcon as FemaleIcon } from "@/components/icons";
+import { UserIcon as MaleIcon } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 
 export const columns: ColumnDef<TGetFennecLiveGuestlistItem>[] = [

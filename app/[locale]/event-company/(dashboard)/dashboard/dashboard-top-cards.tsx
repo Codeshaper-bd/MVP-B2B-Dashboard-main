@@ -3,7 +3,7 @@ import { getFilterText } from "@/lib/getFilterText";
 import { useGetDashboardRevenueAndPointsQuery } from "@/store/api/dashboard/dashboard-api";
 import { selectFilter } from "@/store/features/dashboard";
 import { useAppSelector } from "@/store/hooks";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import RevenueCardSkeleton from "@/components/skeleton/revenue-card-skeleton";
 import { SalesBlock } from "@/components/widgets/sales-block";

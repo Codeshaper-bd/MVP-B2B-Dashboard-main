@@ -5,7 +5,7 @@ import { memo } from "react";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { cn } from "@/lib/utils";
 import ChatLeftIcon from "@/components/icons/ChatLeftIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import EyeIcon from "@/components/icons/EyeIcon";
 import ThumbsUpIcon from "@/components/icons/ThumbsUpIcon";
 import { Button } from "@/components/ui/button";

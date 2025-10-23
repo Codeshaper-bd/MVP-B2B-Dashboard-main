@@ -1,4 +1,4 @@
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 
 interface StatusAlertProps {
   type?: "positive" | "negative";

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { cn } from "@/lib/utils";
-import CheckIcon from "@/components/icons/CheckIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
 
 export interface ITemplateProps {
   id: number | string;

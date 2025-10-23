@@ -11,8 +11,8 @@ import type {
   TEmployee,
 } from "@/store/api/employees/employees.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";
 import BgRings from "@/components/ui/BgRings";

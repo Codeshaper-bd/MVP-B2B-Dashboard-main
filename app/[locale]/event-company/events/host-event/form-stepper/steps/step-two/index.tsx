@@ -3,7 +3,7 @@
 import { memo } from "react";
 import { useFormContext, useWatch } from "react-hook-form";
 
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import DiscountSection from "@/components/modules/discount/DiscountSection";
 import GroupDiscountContent from "@/components/modules/group-discount/GroupDiscountContent";
 import { Card, CardContent } from "@/components/ui/card";

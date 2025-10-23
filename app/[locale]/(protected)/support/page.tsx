@@ -1,7 +1,7 @@
 import { getSeoMeta } from "@/lib/get-seo-meta";
 import { CategoryCard, CategoryItem } from "@/components/category-card";
 import DynamicBreadcrumb from "@/components/dynamic-breadcrumb";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import {
   categories,
   contact,

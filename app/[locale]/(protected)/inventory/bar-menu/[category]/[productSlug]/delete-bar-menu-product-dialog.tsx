@@ -13,8 +13,8 @@ import { useDeleteBarMenuItemMutation } from "@/store/api/bar-menu-item/bar-menu
 import type { TIdOrSlugOrIdentifier } from "@/store/api/common-api-types";
 import type { TDeleteAnInventoryItemMutation } from "@/store/api/inventory-item/inventory-item.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";

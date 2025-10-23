@@ -1,6 +1,6 @@
 "use client";
 
-import CheckIcon from "@/components/icons/CheckIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";
 

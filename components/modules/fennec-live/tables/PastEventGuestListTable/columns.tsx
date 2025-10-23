@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 import type { TNullish, TPagination } from "@/store/api/common-api-types";
 import type { TCheckInStatus } from "@/store/api/fennec-live/fennec-live.types";
 import type { TGetPastEventGuestListCheckIn } from "@/store/api/past-event/past-event.types";
-import FemaleIcon from "@/components/icons/FemaleIcon";
-import MaleIcon from "@/components/icons/MaleIcon";
+import { UserIcon as FemaleIcon } from "@/components/icons";
+import { UserIcon as MaleIcon } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 
 export const getColumns = (

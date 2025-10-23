@@ -4,7 +4,7 @@ import type { CellContext } from "@tanstack/react-table";
 import Link from "next/link";
 
 import type { TCustomerLookup } from "@/store/api/customer-lookup/customer-lookup.types";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import { usePathname } from "@/components/navigation";
 
 function ActionCell({

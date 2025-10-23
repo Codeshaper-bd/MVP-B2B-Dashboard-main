@@ -5,7 +5,7 @@ import { Fragment } from "react";
 import { checkIsValidId } from "@/lib/query-management/check-valid-id";
 import { useGetAPromotionActiveEventsQuery } from "@/store/api/promotion/promotion-api";
 import type { TCallbackData } from "@/components/features/cards/ItemCardList/ItemCard";
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import BgRings from "@/components/ui/BgRings";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";

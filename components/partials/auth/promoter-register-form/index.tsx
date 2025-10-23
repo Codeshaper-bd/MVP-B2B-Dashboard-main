@@ -3,9 +3,9 @@
 import { getFileUrl } from "@/lib/media/file-to-url";
 import { cn } from "@/lib/utils";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import CheckIcon from "@/components/icons/CheckIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
 import PhoneIcon from "@/components/icons/PhoneIcon";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import UploadIcon from "@/components/icons/UploadIcon";
 import UserIcon from "@/components/icons/UserIcon";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";

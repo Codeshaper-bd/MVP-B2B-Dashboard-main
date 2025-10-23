@@ -11,7 +11,7 @@ import {
 } from "@/lib/date-time/utc-date";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import CustomizedDialog from "@/components/CustomizedDialog";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import HistoryIcon from "@/components/icons/historyIcon";
 import type { IOption } from "@/components/SelectInput/DropDown/Option";
 import { Button } from "@/components/ui/button";

@@ -1,4 +1,4 @@
-import CheckIcon from "@/components/icons/CheckIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";

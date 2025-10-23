@@ -1,8 +1,8 @@
 import { memo } from "react";
 
-import ClockIcon from "@/components/icons/ClockIcon";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { ClockIcon as ClockIcon } from "@/components/icons";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import PercentIcon from "@/components/icons/PercentIcon";
 import { Card, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";

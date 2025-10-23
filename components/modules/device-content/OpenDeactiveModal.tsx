@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import SignalTransmitIcon from "@/components/icons/SignalTransmitIcon";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";

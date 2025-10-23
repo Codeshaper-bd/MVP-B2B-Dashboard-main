@@ -1,5 +1,5 @@
 import EyeIcon from "@/components/icons/EyeIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import TicketIcon from "@/components/icons/TicketIcon";
 
 export type StepperItemProps = {

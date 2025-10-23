@@ -3,7 +3,7 @@ import { CSS } from "@dnd-kit/utilities";
 import React from "react";
 
 import { getResponseTypeStatusColor } from "@/lib/get-status-colors";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import DragIcon from "@/components/icons/DragIcon";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";

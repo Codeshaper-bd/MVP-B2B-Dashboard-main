@@ -4,8 +4,8 @@ import type { ColumnDef } from "@tanstack/react-table";
 
 import { convertToNumber } from "@/lib/data-types/number";
 import type { TTicketTierItem } from "@/store/api/ticket-tier/ticket-tier.types";
-import FemaleIcon from "@/components/icons/FemaleIcon";
-import MaleIcon from "@/components/icons/MaleIcon";
+import { UserIcon as FemaleIcon } from "@/components/icons";
+import { UserIcon as MaleIcon } from "@/components/icons";
 
 export const columns: ColumnDef<TTicketTierItem>[] = [
   {

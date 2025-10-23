@@ -5,7 +5,7 @@ import React, { useState, useRef, useEffect } from "react";
 import useClickOutside from "@/hooks/use-click-outside";
 // import { useLockBodyScroll } from "@/hooks/use-lock-body-scroll";
 import { cn } from "@/lib/utils";
-import ClockIcon from "@/components/icons/ClockIcon";
+import { ClockIcon as ClockIcon } from "@/components/icons";
 
 import { Button } from "../button";
 import { Input } from "../input";

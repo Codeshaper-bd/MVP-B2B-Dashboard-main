@@ -1,6 +1,6 @@
 import { DialogDescription } from "@radix-ui/react-dialog";
 
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import BgRings from "@/components/ui/BgRings";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 

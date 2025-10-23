@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import {
   AlertDialogCancel,
   AlertDialogContent,

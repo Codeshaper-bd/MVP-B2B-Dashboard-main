@@ -1,8 +1,8 @@
 import { type CellContext } from "@tanstack/react-table";
 
 import type { TInventoryTransferHistoryData } from "@/store/api/transfer-history/inventory-transfer.types";
-import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { ArrowLeftIcon as ArrowLeftIcon } from "@/components/icons";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   Drawer,

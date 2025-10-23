@@ -1,8 +1,8 @@
 import { memo } from "react";
 
 import type { TPromoter } from "@/store/api/promoters/promoters.types";
-import CheckIcon from "@/components/icons/CheckIcon";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 
 import { guestListPermissions } from "../../forms/CreatePromoterForm/utils";
 

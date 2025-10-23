@@ -2,7 +2,7 @@ import React, { memo } from "react";
 
 import { cn } from "@/lib/utils";
 import type { TNotificationType } from "@/store/api/notifications/notifications.types";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import CubeIcon from "@/components/icons/CubeIcon";
 import ListIcon from "@/components/icons/ListIcon";
 

@@ -1,7 +1,7 @@
 import { memo } from "react";
 
 import type { TLinkTracking } from "@/store/api/link-tracking/link-tracking.types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 

@@ -5,7 +5,7 @@ import type { IApexAreaChartSeries } from "@/lib/charts/types";
 import { convertToNumber } from "@/lib/data-types/number";
 import { cn } from "@/lib/utils";
 import type { TNullish } from "@/store/api/common-api-types";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 import SimpleTooltip from "@/components/ui/SimpleTooltip";
 const Chart = dynamic(() => import("react-apexcharts"));

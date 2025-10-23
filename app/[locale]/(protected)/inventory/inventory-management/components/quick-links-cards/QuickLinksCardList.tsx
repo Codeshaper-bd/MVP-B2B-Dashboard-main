@@ -1,5 +1,5 @@
 import AlCoholicIcon from "@/components/icons/AlCoholicIcon";
-import ClockIcon from "@/components/icons/ClockIcon";
+import { ClockIcon as ClockIcon } from "@/components/icons";
 import NonAlcoholicIcon from "@/components/icons/NonAlcoholicIcon";
 
 import QuickLinksCard, { type IQuickLinksCardProps } from "./QuickLinksCard";

@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 
 export interface ITagProps {
   label: string;

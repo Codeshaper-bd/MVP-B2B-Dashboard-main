@@ -1,5 +1,5 @@
-import CalendarIcon from "@/components/icons/CalendarIcon";
-import DataBaseIcon from "@/components/icons/DataBaseIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
+import { DatabaseIcon as DataBaseIcon } from "@/components/icons";
 
 export type TIconType =
   | {

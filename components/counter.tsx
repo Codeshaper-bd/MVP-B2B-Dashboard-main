@@ -1,8 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import {
   Select,
   SelectContent,

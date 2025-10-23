@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 

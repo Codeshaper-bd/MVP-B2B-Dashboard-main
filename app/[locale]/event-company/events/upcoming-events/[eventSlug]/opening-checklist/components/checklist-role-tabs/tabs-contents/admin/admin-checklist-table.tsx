@@ -1,4 +1,4 @@
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";

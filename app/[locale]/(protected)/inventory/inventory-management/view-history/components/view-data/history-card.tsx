@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import DownloadIcon from "@/components/icons/DownloadIcon";
 import { Button } from "@/components/ui/button";
 

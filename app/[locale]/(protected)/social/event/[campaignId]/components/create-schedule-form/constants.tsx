@@ -1,6 +1,6 @@
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import ChooseTemplateIcon from "@/components/icons/ChooseTemplateIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import EyeIcon from "@/components/icons/EyeIcon";
 import ImageIcon from "@/components/icons/ImageIcon";
 import ThemeIcon from "@/components/icons/ThemeIcon";

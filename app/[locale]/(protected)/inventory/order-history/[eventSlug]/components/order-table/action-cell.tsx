@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 
 import type { TOrder } from "@/store/api/order-history/order-history.types";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 
 type TPageParams = Params & {
   locale: string;

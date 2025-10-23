@@ -8,7 +8,7 @@ import {
 import { checkIsValidId } from "@/lib/query-management/check-valid-id";
 import type { TIdOrSlugOrIdentifier } from "@/store/api/common-api-types";
 import { useDeleteADiscountMutation } from "@/store/api/discounts/discounts-api";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";
 import { useToast } from "@/components/ui/use-toast";

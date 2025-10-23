@@ -7,7 +7,7 @@ import { FormProvider } from "react-hook-form";
 import type { TBaseVolume } from "@/store/api/inventory-item/inventory-item.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import { CopyInput } from "@/components/copy-input";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import SelectInput from "@/components/SelectInput";
 import { Button } from "@/components/ui/button";

@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 import { CategoryCard } from "@/components/category-card";
 import LeftArrowIcon from "@/components/icons/LeftArrowIcon";
 import MailIcon from "@/components/icons/MailIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import CountrySelect from "@/components/ui/CountrySelect";

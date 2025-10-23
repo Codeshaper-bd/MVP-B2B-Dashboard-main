@@ -15,7 +15,7 @@ import type {
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import DiscountTypeDropdown from "@/components/features/dropdown/discount-type-dropdown";
 import GuestlistCapacityLimitTooltip from "@/components/features/tooltip/guestlist-capacity-limit-tooltip";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import InputHelper from "@/components/ui/input-helper";

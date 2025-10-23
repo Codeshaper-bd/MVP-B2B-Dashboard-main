@@ -2,7 +2,7 @@
 import { useCallback } from "react";
 
 import { cn } from "@/lib/utils";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import BgGrid from "@/components/ui/BgGrid";
 import BgRings from "@/components/ui/BgRings";
 import { Button } from "@/components/ui/button";

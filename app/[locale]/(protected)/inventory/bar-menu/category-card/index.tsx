@@ -7,7 +7,7 @@ import useBooleanState from "@/hooks/useBooleanState";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import { cn } from "@/lib/utils";
 import type { TBarMenu } from "@/store/api/bar-menu/bar-menu.types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import DotVerticalIcon from "@/components/icons/DotVerticalIcon";
 import RepeatIcon from "@/components/icons/RepeatIcon";
 import TextInputIcon from "@/components/icons/TextInputIcon";

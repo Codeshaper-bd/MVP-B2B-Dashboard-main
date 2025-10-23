@@ -2,7 +2,7 @@ import useFetchAnEventData from "@/hooks/data-fetch/useFetchAnEventData";
 import { convertToNumber } from "@/lib/data-types/number";
 import { useGetPastEventRevenueOverviewQuery } from "@/store/api/past-event/past-event-api";
 import ApexAreaChart from "@/components/charts/apex-area-chart";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import PieChartIcon from "@/components/icons/PieChartIcon";
 import TicketIcon from "@/components/icons/TicketIcon";
 import RenderData from "@/components/render-data";

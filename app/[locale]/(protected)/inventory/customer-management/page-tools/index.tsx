@@ -1,4 +1,4 @@
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import SearchComponent from "@/components/ui/search-component";
 
 import AddNewCustomer from "../add-new-customer";

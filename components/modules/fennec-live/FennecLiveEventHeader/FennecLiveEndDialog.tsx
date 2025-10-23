@@ -5,7 +5,7 @@ import { convertLocalToUTC } from "@/lib/date-time/utc-date";
 import { useUpdateAnEventMutation } from "@/store/api/events/events-api";
 import { type TUpdateAnEventArgs } from "@/store/api/events/events.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";

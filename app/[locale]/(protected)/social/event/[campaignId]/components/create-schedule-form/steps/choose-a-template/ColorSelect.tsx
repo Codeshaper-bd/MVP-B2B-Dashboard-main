@@ -1,7 +1,7 @@
 "use client";
 import { CheckIcon } from "lucide-react";
 
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import LabelErrorWrapper, {
   type TLabelErrorWrapperProps,
 } from "@/components/ui/LabelErrorWrapper";

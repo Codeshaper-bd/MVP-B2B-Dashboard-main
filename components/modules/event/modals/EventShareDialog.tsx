@@ -10,8 +10,8 @@ import {
 import { copyText } from "@/lib/utils";
 import type { TNullish } from "@/store/api/common-api-types";
 import type { TEvent } from "@/store/api/events/events.types";
-import CrossIcon from "@/components/icons/CrossIcon";
-import EmailIcon from "@/components/icons/EmailIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
+import { MailIcon as EmailIcon } from "@/components/icons";
 import FacebookIcon from "@/components/icons/FacebookIcon";
 import Link2Icon from "@/components/icons/Link2Icon";
 import MessengerIcon from "@/components/icons/MessengerIcon";

@@ -7,8 +7,8 @@ import EditChallengeModal from "@/app/[locale]/(protected)/dashboard/challenges/
 import useBooleanState from "@/hooks/useBooleanState";
 import { cn } from "@/lib/utils";
 import type { TChallenge } from "@/store/api/challenges/challenges.types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import { usePathname } from "@/components/navigation";
 
 import { useChallengeContext } from "../challenge-context";

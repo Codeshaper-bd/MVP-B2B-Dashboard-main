@@ -1,10 +1,10 @@
 import React from "react";
 
-import ClockIcon from "@/components/icons/ClockIcon";
-import DataBaseIcon from "@/components/icons/DataBaseIcon";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { ClockIcon as ClockIcon } from "@/components/icons";
+import { DatabaseIcon as DataBaseIcon } from "@/components/icons";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import DocumentIcon from "@/components/icons/DocumentIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import FlashIcon from "@/components/icons/FlashIcon";
 import { Card, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";

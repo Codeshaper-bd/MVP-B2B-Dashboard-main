@@ -4,8 +4,8 @@ import dynamic from "next/dynamic";
 import { useState } from "react";
 
 import { cn } from "@/lib/utils";
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import XIcon from "@/components/icons/X";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

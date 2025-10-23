@@ -7,7 +7,7 @@ import type { TNullish } from "@/store/api/common-api-types";
 import DatePickerField from "@/components/date-time/DatePickerField";
 import FileUploader from "@/components/form/file-uploader";
 import AiMagicIcon from "@/components/icons/AiMagicIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import AddOrEditVenueDialog from "@/components/modules/venue/modals/AddOrEditVenueDialog";
 import SelectInput from "@/components/SelectInput";
 import type { IOption } from "@/components/SelectInput/DropDown/Option";

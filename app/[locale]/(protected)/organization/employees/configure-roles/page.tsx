@@ -1,7 +1,7 @@
 import BackButton from "@/components/Buttons/back-button";
 import DynamicBreadcrumb from "@/components/dynamic-breadcrumb";
 import LockLockedIcon from "@/components/icons/LockLockedIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import ManageTable from "@/components/modules/employees/ManageTable";
 import RoleCards from "@/components/modules/employees/RoleCards";
 import PageHeader from "@/components/partials/header/page-header";

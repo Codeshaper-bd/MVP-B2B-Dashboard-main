@@ -3,8 +3,8 @@ import { memo } from "react";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { cn } from "@/lib/utils";
 import type { TChallenge } from "@/store/api/challenges/challenges.types";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import DataBaseIcon from "@/components/icons/DataBaseIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { DatabaseIcon as DataBaseIcon } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 

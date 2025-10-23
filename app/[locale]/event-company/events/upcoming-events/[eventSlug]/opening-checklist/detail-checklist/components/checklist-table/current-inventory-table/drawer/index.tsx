@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   Drawer,

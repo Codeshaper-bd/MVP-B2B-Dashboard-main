@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 import { useGetTotalEngagementOfChallengeQuery } from "@/store/api/challenges/challenges-api";
 import type { TGetTotalEngagementOfChallengeArgs } from "@/store/api/challenges/challenges.types";
 import type { TTimeRange } from "@/store/api/common-api-types";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import PieChartIcon from "@/components/icons/PieChartIcon";
 import RenderData from "@/components/render-data";
 import PointsGivenSkeleton from "@/components/skeleton/points-given-skeleton";

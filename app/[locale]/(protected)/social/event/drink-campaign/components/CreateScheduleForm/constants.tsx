@@ -2,7 +2,7 @@ import ChooseTemplateIcon from "@/components/icons/ChooseTemplateIcon";
 import EyeIcon from "@/components/icons/EyeIcon";
 import GlobeIcon from "@/components/icons/GlobeIcon";
 import ImageIcon from "@/components/icons/ImageIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import type { IOption } from "@/components/SelectInput/DropDown/Option";
 
 import type { StepperItemProps } from "./types";

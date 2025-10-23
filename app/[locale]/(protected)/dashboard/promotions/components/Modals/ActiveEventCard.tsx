@@ -4,8 +4,8 @@ import React from "react";
 
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import type { TActiveEvent } from "@/store/api/challenges/challenges.types";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import LocationIcon from "@/components/icons/LocationIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { LocationIcon as LocationIcon } from "@/components/icons";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
 interface ActiveEventCardProps {

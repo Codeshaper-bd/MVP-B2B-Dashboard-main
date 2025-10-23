@@ -2,7 +2,7 @@ import { selectAuthUserEmail } from "@/store/features/auth";
 import { useAppSelector } from "@/store/hooks";
 import { CategoryCard } from "@/components/category-card";
 import CustomRadioGroup from "@/components/CustomRadioGroup";
-import EmailIcon from "@/components/icons/EmailIcon";
+import { MailIcon as EmailIcon } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 
 function ContactEmail() {

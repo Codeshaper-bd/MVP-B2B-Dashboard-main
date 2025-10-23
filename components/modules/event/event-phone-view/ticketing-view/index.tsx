@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { convertToNumber } from "@/lib/data-types/number";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
-import CheckIcon from "@/components/icons/CheckIcon";
+import { CheckIcon as CheckIcon } from "@/components/icons";
 import { NoDataFound } from "@/components/icons/NoDataFound";
 import RenderData from "@/components/render-data";
 import { Button } from "@/components/ui/button";

@@ -4,7 +4,7 @@
 
 // import type { ISalesRevenueFilterContextProps } from "@/app/[locale]/(protected)/dashboard/sales-revenue/components/SalesRevenueFilterContext/types";
 // import { useMediaQuery } from "@/hooks/use-media-query";
-// import CalenderIcon from "@/components/icons/CalenderIcon";
+// import { CalendarIcon as CalenderIcon } from '@/components/icons';
 // import { Calendar } from "@/components/ui/calendar";
 
 // import FilterDropdown from "../app/[locale]/(protected)/dashboard/sales-revenue/components/FilterDropdown";

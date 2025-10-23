@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useCallback } from "react";
 
 import useObjectURL from "@/hooks/useObjectURL";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 
 export interface ImagePreviewProps {
   id?: string | number;

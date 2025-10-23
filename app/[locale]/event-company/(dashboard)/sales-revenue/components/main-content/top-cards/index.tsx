@@ -1,7 +1,7 @@
 import { convertLocalToUTC } from "@/lib/date-time/utc-date";
 import { getFilterText, getFilterTextDetails } from "@/lib/getFilterText";
 import { useGetTotalSalesRevenueQuery } from "@/store/api/sales-revenue/sales-revenue-api";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import TicketIcon from "@/components/icons/TicketIcon";
 import { useSalesRevenueFilterContext } from "@/components/modules/sales-revenue/SalesRevenueFilterContext";
 import RenderData from "@/components/render-data";

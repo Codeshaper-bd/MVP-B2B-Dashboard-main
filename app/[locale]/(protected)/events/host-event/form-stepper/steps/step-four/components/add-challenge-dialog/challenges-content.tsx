@@ -11,7 +11,7 @@ import type {
   TGetAllChallengeArgs,
 } from "@/store/api/challenges/challenges.types";
 import type { TNullish } from "@/store/api/common-api-types";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import BasicPagination from "@/components/pagination/basic-pagination";
 import RenderData from "@/components/render-data";
 import { ScrollArea } from "@/components/ui/scroll-area";

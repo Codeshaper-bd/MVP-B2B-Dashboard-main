@@ -1,8 +1,8 @@
 import { PhoneIcon } from "lucide-react";
 import { useFieldArray, useFormContext } from "react-hook-form";
 
-import CrossIcon from "@/components/icons/CrossIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 

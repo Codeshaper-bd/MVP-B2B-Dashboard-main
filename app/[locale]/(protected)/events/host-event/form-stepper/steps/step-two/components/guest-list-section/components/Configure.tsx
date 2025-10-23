@@ -10,7 +10,7 @@ import type {
   TGuestListConditionalType,
 } from "@/store/api/events/events.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog, AlertDialogTrigger } from "@/components/ui/alert-dialog";

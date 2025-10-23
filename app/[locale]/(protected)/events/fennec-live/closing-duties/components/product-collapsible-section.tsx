@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import type { FieldValues, UseFormRegister } from "react-hook-form";
 
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import DollarIcon from "@/components/icons/DollarIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
-import MinusIcon from "@/components/icons/MinusIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
+import { MinusIcon as MinusIcon } from "@/components/icons";
+import { PlusIcon as PlusIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { CardTitle } from "@/components/ui/card";
 import {

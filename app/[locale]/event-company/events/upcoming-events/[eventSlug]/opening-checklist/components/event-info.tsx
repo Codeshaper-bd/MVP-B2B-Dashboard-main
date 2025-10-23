@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
-import CalendarIcon from "@/components/icons/CalendarIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
 import FileX from "@/components/icons/FileX";
-import LocationIcon from "@/components/icons/LocationIcon";
+import { LocationIcon as LocationIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 function EventInfo() {

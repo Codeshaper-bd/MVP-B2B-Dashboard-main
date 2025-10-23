@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import type { TInventoryItemType } from "@/store/api/inventory-item/inventory-item.types";
-import CrossIcon from "@/components/icons/CrossIcon";
+import { CrossIcon as CrossIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   DialogClose,

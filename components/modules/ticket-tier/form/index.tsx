@@ -13,8 +13,8 @@ import {
   convertUTCToLocalDate,
 } from "@/lib/date-time/utc-date";
 import ReactCalender from "@/components/date-time/react-calender";
-import CalenderIcon from "@/components/icons/CalenderIcon";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import RenderData from "@/components/render-data";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

@@ -6,7 +6,7 @@ import type { TNullish } from "@/store/api/common-api-types";
 import { useCancelEventMutation } from "@/store/api/events/events-api";
 import type { TEvent } from "@/store/api/events/events.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";

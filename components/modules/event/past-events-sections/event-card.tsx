@@ -4,8 +4,8 @@ import Link from "next/link";
 import { convertUTCToLocal } from "@/lib/date-time/utc-date";
 import { getImageFallback } from "@/lib/media/get-image-fallback";
 import type { TEvent } from "@/store/api/events/events.types";
-import CalendarIcon from "@/components/icons/CalendarIcon";
-import LocationIcon from "@/components/icons/LocationIcon";
+import { CalendarIcon as CalendarIcon } from "@/components/icons";
+import { LocationIcon as LocationIcon } from "@/components/icons";
 import { usePathname } from "@/components/navigation";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 

@@ -1,6 +1,6 @@
 import AiMagicIcon from "@/components/icons/AiMagicIcon";
 import CodeDiscountIcon from "@/components/icons/CodeDiscountIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import TableIcon from "@/components/icons/TableIcon";
 
 export type StepperItemProps = {

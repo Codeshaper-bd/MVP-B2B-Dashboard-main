@@ -2,7 +2,7 @@
 import type { ColumnDef, Table } from "@tanstack/react-table";
 
 import { cn } from "@/lib/utils";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import DownArrowIcon from "@/components/icons/DownArrowIcon";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";

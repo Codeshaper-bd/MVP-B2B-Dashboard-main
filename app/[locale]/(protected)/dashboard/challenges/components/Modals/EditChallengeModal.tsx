@@ -5,7 +5,7 @@ import type { TChallenge } from "@/store/api/challenges/challenges.types";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
 import CustomizedDialog from "@/components/CustomizedDialog";
 import DialogContextProvider from "@/components/CustomizedDialog/DialogContext";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 import CreateChallengeForm, {

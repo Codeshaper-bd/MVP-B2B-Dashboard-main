@@ -4,7 +4,7 @@ import { DeviceFrameset } from "react-device-frameset";
 import type { TNullish } from "@/store/api/common-api-types";
 import type { TEvent } from "@/store/api/events/events.types";
 import ChevronRightIcon from "@/components/icons/ChevronRightIcon";
-import SearchIcon from "@/components/icons/SearchIcon";
+import { SearchIcon as SearchIcon } from "@/components/icons";
 import type { IApiStateInfo } from "@/components/render-data";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";

@@ -4,7 +4,7 @@ import Link from "next/link";
 import useManageSearchParams from "@/hooks/useManageSearchParams";
 import { useGetTopPromotionsQuery } from "@/store/api/promotion/promotion-api";
 import type { TGetTopPromotionArgs } from "@/store/api/promotion/promotion.types";
-import RightArrowIcon from "@/components/icons/RightArrowIcon";
+import { ArrowRightIcon as RightArrowIcon } from "@/components/icons";
 import StarIcon from "@/components/icons/StarIcon";
 import BasicPagination from "@/components/pagination/basic-pagination";
 import DefaultTable from "@/components/partials/table/DefaultTable";

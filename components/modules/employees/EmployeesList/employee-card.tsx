@@ -11,9 +11,9 @@ import {
 } from "@/lib/user/checkAuth";
 import { cn } from "@/lib/utils";
 import type { TEmployee } from "@/store/api/employees/employees.types";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import EmailIcon from "@/components/icons/EmailIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { MailIcon as EmailIcon } from "@/components/icons";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import NetworkBarIcon from "@/components/icons/NetworkBarIcon";
 import { useRouter } from "@/components/navigation";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";

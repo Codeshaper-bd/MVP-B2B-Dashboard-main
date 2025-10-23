@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import BgRings from "@/components/ui/BgRings";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 

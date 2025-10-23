@@ -6,11 +6,11 @@ import type {
   TUpdateADiscountArgs,
 } from "@/store/api/discounts/discounts.types";
 import CopyButton from "@/components/Buttons/copy-button";
-import CalenderIcon from "@/components/icons/CalenderIcon";
+import { CalendarIcon as CalenderIcon } from "@/components/icons";
 import CodeDiscountIcon from "@/components/icons/CodeDiscountIcon";
 import CopyIcon from "@/components/icons/CopyIcon";
-import DeleteIcon from "@/components/icons/DeleteIcon";
-import EditPenIcon from "@/components/icons/EditPenIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
+import { EditIcon as EditPenIcon } from "@/components/icons";
 import PercentIcon from "@/components/icons/PercentIcon";
 import TicketLinkIcon from "@/components/icons/TicketLinkIcon";
 import { Card, CardTitle } from "@/components/ui/card";

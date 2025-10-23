@@ -1,9 +1,9 @@
 import type { IOption } from "@/components/SelectInput/DropDown/Option";
-// import CalendarIcon from "@/components/icons/CalendarIcon";
-// import EditPenIcon from "@/components/icons/EditPenIcon";
+// import { CalendarIcon as CalendarIcon } from '@/components/icons';
+// import { EditIcon as EditPenIcon } from '@/components/icons';
 // import EyeIcon from "@/components/icons/EyeIcon";
 // import ImageIcon from "@/components/icons/ImageIcon";
-// import InfoIcon from "@/components/icons/InfoIcon";
+// import { InfoIcon as InfoIcon } from '@/components/icons';
 
 // export const steps: StepperItemProps[] = [
 //   { label: "General Information", icon: <InfoIcon className="h-7 w-7" /> },

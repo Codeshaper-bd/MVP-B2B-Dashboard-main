@@ -1,7 +1,7 @@
 import React from "react";
 
 import { cn } from "@/lib/utils";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import { TooltipTrigger } from "@/components/ui/tooltip";
 
 interface IProgressInfoProps {

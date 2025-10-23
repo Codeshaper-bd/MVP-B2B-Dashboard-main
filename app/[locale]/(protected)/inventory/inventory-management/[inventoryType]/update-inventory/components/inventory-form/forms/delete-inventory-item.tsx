@@ -5,7 +5,7 @@ import { getApiErrorMessage } from "@/lib/error/get-api-error-message";
 import { checkIsValidId } from "@/lib/query-management/check-valid-id";
 import { useDeleteAnInventoryItemMutation } from "@/store/api/inventory-item/inventory-item-api";
 import ButtonLoadingContent from "@/components/Buttons/ButtonLoadingContent";
-import DeleteIcon from "@/components/icons/DeleteIcon";
+import { DeleteIcon as DeleteIcon } from "@/components/icons";
 import { useRouter } from "@/components/navigation";
 import StatusAlert from "@/components/StatusAlert";
 import { AlertDialog, AlertDialogTrigger } from "@/components/ui/alert-dialog";

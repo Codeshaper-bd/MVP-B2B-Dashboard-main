@@ -11,9 +11,9 @@ import type { TGetABarMenuItemStatsArgs } from "@/store/api/bar-menu-item/bar-me
 import type { TIdOrSlugOrIdentifier } from "@/store/api/common-api-types";
 import { EUnit } from "@/store/api/inventory-item/inventory-item.types";
 import ApexAreaChart from "@/components/charts/apex-area-chart";
-import DollarIcon from "@/components/icons/DollarIcon";
+import { DollarIcon as DollarIcon } from "@/components/icons";
 import FileSearchIcon from "@/components/icons/FileSearchIcon";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import ShoppingCartIcon from "@/components/icons/ShoppingCartIcon";
 import RenderData from "@/components/render-data";
 import { Button } from "@/components/ui/button";

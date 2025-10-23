@@ -1,5 +1,5 @@
 import { useDialogContext } from "@/components/CustomizedDialog/DialogContext";
-import InfoIcon from "@/components/icons/InfoIcon";
+import { InfoIcon as InfoIcon } from "@/components/icons";
 import SelectInput from "@/components/SelectInput";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

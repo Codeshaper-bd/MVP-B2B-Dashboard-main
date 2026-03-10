@@ -10,7 +10,6 @@
     "lint": "next lint",
     "format": "npx prettier '**/*.{js,jsx,tsx,ts,mjs,cjs,json}' --write",
     "lint:fix": "npx eslint --fix '**/*.{js,jsx,ts,tsx,mjs,cjs}'",
-    "preinstall": "node preinstall.js",
     "release": "standard-version --release-as major"
   },
   "dependencies": {
